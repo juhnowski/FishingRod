@@ -1,0 +1,141 @@
+<html>
+    <head>
+    <title>{{title}}</title>
+
+    <script type="text/javascript" src="./static/json2.js"></script>
+    <script type="text/javascript">
+
+
+    if( !window.XMLHttpRequest ) XMLHttpRequest = function()
+    {
+      try{ return new ActiveXObject("Msxml2.XMLHTTP.6.0") }catch(e){}
+      try{ return new ActiveXObject("Msxml2.XMLHTTP.3.0") }catch(e){}
+      try{ return new ActiveXObject("Msxml2.XMLHTTP") }catch(e){}
+      try{ return new ActiveXObject("Microsoft.XMLHTTP") }catch(e){}
+      throw new Error("Could not find an XMLHttpRequest alternative.")
+    };
+
+    function Request(function_name, opt_argv) {
+
+      if (!opt_argv)
+        opt_argv = new Array();
+
+      var callback = null;
+      var len = opt_argv.length;
+      if (len > 0 && typeof opt_argv[len-1] == 'function') {
+        callback = opt_argv[len-1];
+        opt_argv.length--;
+      }
+      var async = (callback != null);
+
+      var query = 'action=' + encodeURIComponent(function_name);
+      for (var i = 0; i < opt_argv.length; i++) {
+        var key = 'arg' + i;
+        var val = JSON.stringify(opt_argv[i]);
+        query += '&' + key + '=' + encodeURIComponent(val);
+      }
+      query += '&time=' + new Date().getTime(); // IE cache workaround
+
+      var req = new XMLHttpRequest();
+      req.open('GET', '/rpc?' + query, async);
+
+      if (async) {
+        req.onreadystatechange = function() {
+          if(req.readyState == 4 && req.status == 200) {
+            var response = null;
+            try {
+             response = JSON.parse(req.responseText);
+            } catch (e) {
+             response = req.responseText;
+            }
+            callback(response);
+          }
+        }
+      }
+      req.send(null);
+    }
+    function InstallFunction(obj, functionName) {
+      obj[functionName] = function() { Request(functionName, arguments); }
+    }
+
+    </script>
+    <script type="text/javascript">
+    var server = {};
+
+    InstallFunction(server, 'Add');
+
+    // Handy "macro"
+    function $(id){
+      return document.getElementById(id);
+    }
+
+    // Client function that calls a server rpc and provides a callback
+    function doAdd() {
+    
+      server.Add($('b_cnt').value, $('e_cnt').value, onAddSuccess);
+//      setTimeout("doAdd();",500);
+    }
+
+    // Callback for after a successful doAdd
+    function onAddSuccess(response) {
+      params = response.split(',');
+      $('b_st').value = params[0];
+      $('b_cnt').value = params[1];
+      $('e_st').value = params[2];
+      $('e_cnt').value = params[3];
+      $('x_st').value = params[4];
+      $('x_cnt').value = params[5];
+
+    }
+
+    </script>
+    
+    <script>
+        window.onload = function(){doAdd(); };
+    </script>
+    
+    </head>
+
+    <body>
+    <center>
+    <h1>{{title}}</h1>
+    <table>
+        <tr>
+        <td>
+        <input type="button" value="Add" onclick="doAdd()" style="width:100%" />
+        </td>
+            <td>
+                <a>Bridge status:</a>
+                <input id="b_st" type="text" value="N/A" readonly="true" disabled="true"/>
+            </td>
+            
+            <td>
+                <a>Bridge Chunks Received:</a>
+                <input id="b_cnt" type="text" value="0" readonly="true" disabled="true"/>
+            </td>
+
+            <td>
+                <a>Encoder status:</a>
+                <input id="e_st" type="text" value="N/A" readonly="true" disabled="true"/>
+            </td>
+            
+            <td>
+                <a>Encoder Chunks Received:</a>
+                <input id="e_cnt" type="text" value="0" readonly="true" disabled="true"/>
+            </td>
+
+            <td>
+                <a>xIMU status:</a>
+                <input id="x_st" type="text" value="N/A" readonly="true" disabled="true"/>
+            </td>
+            
+            <td>
+                <a>xIMU Chunks Received:</a>
+                <input id="x_cnt" type="text" value="0" readonly="true" disabled="true"/>
+            </td>
+                    
+        </tr>
+    </table>
+    </center>
+    </body>
+    </html>
