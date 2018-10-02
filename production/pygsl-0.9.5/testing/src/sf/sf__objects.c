@@ -1,4 +1,4 @@
-/*Using complex_polar as pyton name*/
+/*Using complex_polar as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_dd__one_data ,
                              complex_polar_data,
                              PyGSL_sf_ufunc_pD_dd__one_types,
@@ -12,7 +12,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_dd__one_data ,
 PyDict_SetItemString(sf_dict, "complex_polar", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_rect as pyton name*/
+/*Using complex_rect as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_dd__one_data ,
                              complex_rect_data,
                              PyGSL_sf_ufunc_pD_dd__one_types,
@@ -26,7 +26,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_dd__one_data ,
 PyDict_SetItemString(sf_dict, "complex_rect", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_abs as pyton name*/
+/*Using complex_abs as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_D__one_data ,
                              complex_abs_data,
                              PyGSL_sf_ufunc_pd_D__one_types,
@@ -40,7 +40,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_D__one_data ,
 PyDict_SetItemString(sf_dict, "complex_abs", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_abs2 as pyton name*/
+/*Using complex_abs2 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_D__one_data ,
                              complex_abs2_data,
                              PyGSL_sf_ufunc_pd_D__one_types,
@@ -54,7 +54,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_D__one_data ,
 PyDict_SetItemString(sf_dict, "complex_abs2", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_logabs as pyton name*/
+/*Using complex_logabs as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_D__one_data ,
                              complex_logabs_data,
                              PyGSL_sf_ufunc_pd_D__one_types,
@@ -68,7 +68,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_D__one_data ,
 PyDict_SetItemString(sf_dict, "complex_logabs", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_add as pyton name*/
+/*Using complex_add as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_DD__one_data ,
                              complex_add_data,
                              PyGSL_sf_ufunc_pD_DD__one_types,
@@ -82,7 +82,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_DD__one_data ,
 PyDict_SetItemString(sf_dict, "complex_add", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_sub as pyton name*/
+/*Using complex_sub as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_DD__one_data ,
                              complex_sub_data,
                              PyGSL_sf_ufunc_pD_DD__one_types,
@@ -96,7 +96,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_DD__one_data ,
 PyDict_SetItemString(sf_dict, "complex_sub", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_mul as pyton name*/
+/*Using complex_mul as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_DD__one_data ,
                              complex_mul_data,
                              PyGSL_sf_ufunc_pD_DD__one_types,
@@ -110,7 +110,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_DD__one_data ,
 PyDict_SetItemString(sf_dict, "complex_mul", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_div as pyton name*/
+/*Using complex_div as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_DD__one_data ,
                              complex_div_data,
                              PyGSL_sf_ufunc_pD_DD__one_types,
@@ -124,7 +124,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_DD__one_data ,
 PyDict_SetItemString(sf_dict, "complex_div", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_add_real as pyton name*/
+/*Using complex_add_real as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_Dd__one_data ,
                              complex_add_real_data,
                              PyGSL_sf_ufunc_pD_Dd__one_types,
@@ -138,7 +138,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_Dd__one_data ,
 PyDict_SetItemString(sf_dict, "complex_add_real", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_sub_real as pyton name*/
+/*Using complex_sub_real as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_Dd__one_data ,
                              complex_sub_real_data,
                              PyGSL_sf_ufunc_pD_Dd__one_types,
@@ -152,7 +152,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_Dd__one_data ,
 PyDict_SetItemString(sf_dict, "complex_sub_real", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_mul_real as pyton name*/
+/*Using complex_mul_real as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_Dd__one_data ,
                              complex_mul_real_data,
                              PyGSL_sf_ufunc_pD_Dd__one_types,
@@ -166,7 +166,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_Dd__one_data ,
 PyDict_SetItemString(sf_dict, "complex_mul_real", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_div_real as pyton name*/
+/*Using complex_div_real as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_Dd__one_data ,
                              complex_div_real_data,
                              PyGSL_sf_ufunc_pD_Dd__one_types,
@@ -180,7 +180,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_Dd__one_data ,
 PyDict_SetItemString(sf_dict, "complex_div_real", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_add_imag as pyton name*/
+/*Using complex_add_imag as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_Dd__one_data ,
                              complex_add_imag_data,
                              PyGSL_sf_ufunc_pD_Dd__one_types,
@@ -194,7 +194,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_Dd__one_data ,
 PyDict_SetItemString(sf_dict, "complex_add_imag", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_sub_imag as pyton name*/
+/*Using complex_sub_imag as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_Dd__one_data ,
                              complex_sub_imag_data,
                              PyGSL_sf_ufunc_pD_Dd__one_types,
@@ -208,7 +208,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_Dd__one_data ,
 PyDict_SetItemString(sf_dict, "complex_sub_imag", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_mul_imag as pyton name*/
+/*Using complex_mul_imag as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_Dd__one_data ,
                              complex_mul_imag_data,
                              PyGSL_sf_ufunc_pD_Dd__one_types,
@@ -222,7 +222,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_Dd__one_data ,
 PyDict_SetItemString(sf_dict, "complex_mul_imag", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_div_imag as pyton name*/
+/*Using complex_div_imag as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_Dd__one_data ,
                              complex_div_imag_data,
                              PyGSL_sf_ufunc_pD_Dd__one_types,
@@ -236,7 +236,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_Dd__one_data ,
 PyDict_SetItemString(sf_dict, "complex_div_imag", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_conjugate as pyton name*/
+/*Using complex_conjugate as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
                              complex_conjugate_data,
                              PyGSL_sf_ufunc_pD_D__one_types,
@@ -250,7 +250,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
 PyDict_SetItemString(sf_dict, "complex_conjugate", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_inverse as pyton name*/
+/*Using complex_inverse as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
                              complex_inverse_data,
                              PyGSL_sf_ufunc_pD_D__one_types,
@@ -264,7 +264,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
 PyDict_SetItemString(sf_dict, "complex_inverse", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_negative as pyton name*/
+/*Using complex_negative as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
                              complex_negative_data,
                              PyGSL_sf_ufunc_pD_D__one_types,
@@ -278,7 +278,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
 PyDict_SetItemString(sf_dict, "complex_negative", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_sqrt as pyton name*/
+/*Using complex_sqrt as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
                              complex_sqrt_data,
                              PyGSL_sf_ufunc_pD_D__one_types,
@@ -292,7 +292,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
 PyDict_SetItemString(sf_dict, "complex_sqrt", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_sqrt_real as pyton name*/
+/*Using complex_sqrt_real as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_d__one_data ,
                              complex_sqrt_real_data,
                              PyGSL_sf_ufunc_pD_d__one_types,
@@ -306,7 +306,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_d__one_data ,
 PyDict_SetItemString(sf_dict, "complex_sqrt_real", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_pow as pyton name*/
+/*Using complex_pow as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_DD__one_data ,
                              complex_pow_data,
                              PyGSL_sf_ufunc_pD_DD__one_types,
@@ -320,7 +320,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_DD__one_data ,
 PyDict_SetItemString(sf_dict, "complex_pow", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_pow_real as pyton name*/
+/*Using complex_pow_real as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_Dd__one_data ,
                              complex_pow_real_data,
                              PyGSL_sf_ufunc_pD_Dd__one_types,
@@ -334,7 +334,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_Dd__one_data ,
 PyDict_SetItemString(sf_dict, "complex_pow_real", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_exp as pyton name*/
+/*Using complex_exp as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
                              complex_exp_data,
                              PyGSL_sf_ufunc_pD_D__one_types,
@@ -348,7 +348,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
 PyDict_SetItemString(sf_dict, "complex_exp", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_log as pyton name*/
+/*Using complex_log as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
                              complex_log_data,
                              PyGSL_sf_ufunc_pD_D__one_types,
@@ -362,7 +362,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
 PyDict_SetItemString(sf_dict, "complex_log", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_log10 as pyton name*/
+/*Using complex_log10 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
                              complex_log10_data,
                              PyGSL_sf_ufunc_pD_D__one_types,
@@ -376,7 +376,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
 PyDict_SetItemString(sf_dict, "complex_log10", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_log_b as pyton name*/
+/*Using complex_log_b as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_DD__one_data ,
                              complex_log_b_data,
                              PyGSL_sf_ufunc_pD_DD__one_types,
@@ -390,7 +390,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_DD__one_data ,
 PyDict_SetItemString(sf_dict, "complex_log_b", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_sin as pyton name*/
+/*Using complex_sin as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
                              complex_sin_data,
                              PyGSL_sf_ufunc_pD_D__one_types,
@@ -404,7 +404,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
 PyDict_SetItemString(sf_dict, "complex_sin", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_cos as pyton name*/
+/*Using complex_cos as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
                              complex_cos_data,
                              PyGSL_sf_ufunc_pD_D__one_types,
@@ -418,7 +418,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
 PyDict_SetItemString(sf_dict, "complex_cos", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_sec as pyton name*/
+/*Using complex_sec as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
                              complex_sec_data,
                              PyGSL_sf_ufunc_pD_D__one_types,
@@ -432,7 +432,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
 PyDict_SetItemString(sf_dict, "complex_sec", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_csc as pyton name*/
+/*Using complex_csc as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
                              complex_csc_data,
                              PyGSL_sf_ufunc_pD_D__one_types,
@@ -446,7 +446,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
 PyDict_SetItemString(sf_dict, "complex_csc", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_tan as pyton name*/
+/*Using complex_tan as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
                              complex_tan_data,
                              PyGSL_sf_ufunc_pD_D__one_types,
@@ -460,7 +460,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
 PyDict_SetItemString(sf_dict, "complex_tan", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_cot as pyton name*/
+/*Using complex_cot as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
                              complex_cot_data,
                              PyGSL_sf_ufunc_pD_D__one_types,
@@ -474,7 +474,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
 PyDict_SetItemString(sf_dict, "complex_cot", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_arcsin as pyton name*/
+/*Using complex_arcsin as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
                              complex_arcsin_data,
                              PyGSL_sf_ufunc_pD_D__one_types,
@@ -488,7 +488,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
 PyDict_SetItemString(sf_dict, "complex_arcsin", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_arcsin_real as pyton name*/
+/*Using complex_arcsin_real as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_d__one_data ,
                              complex_arcsin_real_data,
                              PyGSL_sf_ufunc_pD_d__one_types,
@@ -502,7 +502,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_d__one_data ,
 PyDict_SetItemString(sf_dict, "complex_arcsin_real", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_arccos as pyton name*/
+/*Using complex_arccos as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
                              complex_arccos_data,
                              PyGSL_sf_ufunc_pD_D__one_types,
@@ -516,7 +516,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
 PyDict_SetItemString(sf_dict, "complex_arccos", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_arccos_real as pyton name*/
+/*Using complex_arccos_real as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_d__one_data ,
                              complex_arccos_real_data,
                              PyGSL_sf_ufunc_pD_d__one_types,
@@ -530,7 +530,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_d__one_data ,
 PyDict_SetItemString(sf_dict, "complex_arccos_real", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_arcsec as pyton name*/
+/*Using complex_arcsec as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
                              complex_arcsec_data,
                              PyGSL_sf_ufunc_pD_D__one_types,
@@ -544,7 +544,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
 PyDict_SetItemString(sf_dict, "complex_arcsec", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_arcsec_real as pyton name*/
+/*Using complex_arcsec_real as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_d__one_data ,
                              complex_arcsec_real_data,
                              PyGSL_sf_ufunc_pD_d__one_types,
@@ -558,7 +558,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_d__one_data ,
 PyDict_SetItemString(sf_dict, "complex_arcsec_real", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_arccsc as pyton name*/
+/*Using complex_arccsc as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
                              complex_arccsc_data,
                              PyGSL_sf_ufunc_pD_D__one_types,
@@ -572,7 +572,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
 PyDict_SetItemString(sf_dict, "complex_arccsc", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_arccsc_real as pyton name*/
+/*Using complex_arccsc_real as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_d__one_data ,
                              complex_arccsc_real_data,
                              PyGSL_sf_ufunc_pD_d__one_types,
@@ -586,7 +586,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_d__one_data ,
 PyDict_SetItemString(sf_dict, "complex_arccsc_real", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_arctan as pyton name*/
+/*Using complex_arctan as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
                              complex_arctan_data,
                              PyGSL_sf_ufunc_pD_D__one_types,
@@ -600,7 +600,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
 PyDict_SetItemString(sf_dict, "complex_arctan", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_arccot as pyton name*/
+/*Using complex_arccot as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
                              complex_arccot_data,
                              PyGSL_sf_ufunc_pD_D__one_types,
@@ -614,7 +614,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
 PyDict_SetItemString(sf_dict, "complex_arccot", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_sinh as pyton name*/
+/*Using complex_sinh as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
                              complex_sinh_data,
                              PyGSL_sf_ufunc_pD_D__one_types,
@@ -628,7 +628,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
 PyDict_SetItemString(sf_dict, "complex_sinh", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_cosh as pyton name*/
+/*Using complex_cosh as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
                              complex_cosh_data,
                              PyGSL_sf_ufunc_pD_D__one_types,
@@ -642,7 +642,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
 PyDict_SetItemString(sf_dict, "complex_cosh", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_sech as pyton name*/
+/*Using complex_sech as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
                              complex_sech_data,
                              PyGSL_sf_ufunc_pD_D__one_types,
@@ -656,7 +656,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
 PyDict_SetItemString(sf_dict, "complex_sech", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_csch as pyton name*/
+/*Using complex_csch as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
                              complex_csch_data,
                              PyGSL_sf_ufunc_pD_D__one_types,
@@ -670,7 +670,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
 PyDict_SetItemString(sf_dict, "complex_csch", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_tanh as pyton name*/
+/*Using complex_tanh as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
                              complex_tanh_data,
                              PyGSL_sf_ufunc_pD_D__one_types,
@@ -684,7 +684,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
 PyDict_SetItemString(sf_dict, "complex_tanh", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_coth as pyton name*/
+/*Using complex_coth as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
                              complex_coth_data,
                              PyGSL_sf_ufunc_pD_D__one_types,
@@ -698,7 +698,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
 PyDict_SetItemString(sf_dict, "complex_coth", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_arcsinh as pyton name*/
+/*Using complex_arcsinh as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
                              complex_arcsinh_data,
                              PyGSL_sf_ufunc_pD_D__one_types,
@@ -712,7 +712,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
 PyDict_SetItemString(sf_dict, "complex_arcsinh", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_arccosh as pyton name*/
+/*Using complex_arccosh as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
                              complex_arccosh_data,
                              PyGSL_sf_ufunc_pD_D__one_types,
@@ -726,7 +726,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
 PyDict_SetItemString(sf_dict, "complex_arccosh", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_arccosh_real as pyton name*/
+/*Using complex_arccosh_real as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_d__one_data ,
                              complex_arccosh_real_data,
                              PyGSL_sf_ufunc_pD_d__one_types,
@@ -740,7 +740,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_d__one_data ,
 PyDict_SetItemString(sf_dict, "complex_arccosh_real", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_arcsech as pyton name*/
+/*Using complex_arcsech as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
                              complex_arcsech_data,
                              PyGSL_sf_ufunc_pD_D__one_types,
@@ -754,7 +754,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
 PyDict_SetItemString(sf_dict, "complex_arcsech", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_arccsch as pyton name*/
+/*Using complex_arccsch as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
                              complex_arccsch_data,
                              PyGSL_sf_ufunc_pD_D__one_types,
@@ -768,7 +768,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
 PyDict_SetItemString(sf_dict, "complex_arccsch", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_arctanh as pyton name*/
+/*Using complex_arctanh as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
                              complex_arctanh_data,
                              PyGSL_sf_ufunc_pD_D__one_types,
@@ -782,7 +782,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
 PyDict_SetItemString(sf_dict, "complex_arctanh", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_arctanh_real as pyton name*/
+/*Using complex_arctanh_real as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_d__one_data ,
                              complex_arctanh_real_data,
                              PyGSL_sf_ufunc_pD_d__one_types,
@@ -796,7 +796,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_d__one_data ,
 PyDict_SetItemString(sf_dict, "complex_arctanh_real", f);
 /* Py_DECREF(f) */;
 
-/*Using complex_arccoth as pyton name*/
+/*Using complex_arccoth as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
                              complex_arccoth_data,
                              PyGSL_sf_ufunc_pD_D__one_types,
@@ -810,7 +810,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pD_D__one_data ,
 PyDict_SetItemString(sf_dict, "complex_arccoth", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_airy_Ai_e as pyton name*/
+/*Using sf_airy_Ai_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dm_rd_one_data ,
                              sf_airy_Ai_e_data,
                              PyGSL_sf_ufunc_qi_dm_rd_one_types,
@@ -824,7 +824,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dm_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_airy_Ai_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_airy_Ai as pyton name*/
+/*Using sf_airy_Ai as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dm__one_data ,
                              sf_airy_Ai_data,
                              PyGSL_sf_ufunc_pd_dm__one_types,
@@ -838,7 +838,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dm__one_data ,
 PyDict_SetItemString(sf_dict, "sf_airy_Ai", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_airy_Bi_e as pyton name*/
+/*Using sf_airy_Bi_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dm_rd_one_data ,
                              sf_airy_Bi_e_data,
                              PyGSL_sf_ufunc_qi_dm_rd_one_types,
@@ -852,7 +852,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dm_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_airy_Bi_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_airy_Bi as pyton name*/
+/*Using sf_airy_Bi as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dm__one_data ,
                              sf_airy_Bi_data,
                              PyGSL_sf_ufunc_pd_dm__one_types,
@@ -866,7 +866,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dm__one_data ,
 PyDict_SetItemString(sf_dict, "sf_airy_Bi", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_airy_Ai_scaled_e as pyton name*/
+/*Using sf_airy_Ai_scaled_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dm_rd_one_data ,
                              sf_airy_Ai_scaled_e_data,
                              PyGSL_sf_ufunc_qi_dm_rd_one_types,
@@ -880,7 +880,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dm_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_airy_Ai_scaled_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_airy_Ai_scaled as pyton name*/
+/*Using sf_airy_Ai_scaled as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dm__one_data ,
                              sf_airy_Ai_scaled_data,
                              PyGSL_sf_ufunc_pd_dm__one_types,
@@ -894,7 +894,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dm__one_data ,
 PyDict_SetItemString(sf_dict, "sf_airy_Ai_scaled", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_airy_Bi_scaled_e as pyton name*/
+/*Using sf_airy_Bi_scaled_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dm_rd_one_data ,
                              sf_airy_Bi_scaled_e_data,
                              PyGSL_sf_ufunc_qi_dm_rd_one_types,
@@ -908,7 +908,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dm_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_airy_Bi_scaled_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_airy_Bi_scaled as pyton name*/
+/*Using sf_airy_Bi_scaled as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dm__one_data ,
                              sf_airy_Bi_scaled_data,
                              PyGSL_sf_ufunc_pd_dm__one_types,
@@ -922,7 +922,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dm__one_data ,
 PyDict_SetItemString(sf_dict, "sf_airy_Bi_scaled", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_airy_Ai_deriv_e as pyton name*/
+/*Using sf_airy_Ai_deriv_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dm_rd_one_data ,
                              sf_airy_Ai_deriv_e_data,
                              PyGSL_sf_ufunc_qi_dm_rd_one_types,
@@ -936,7 +936,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dm_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_airy_Ai_deriv_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_airy_Ai_deriv as pyton name*/
+/*Using sf_airy_Ai_deriv as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dm__one_data ,
                              sf_airy_Ai_deriv_data,
                              PyGSL_sf_ufunc_pd_dm__one_types,
@@ -950,7 +950,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dm__one_data ,
 PyDict_SetItemString(sf_dict, "sf_airy_Ai_deriv", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_airy_Bi_deriv_e as pyton name*/
+/*Using sf_airy_Bi_deriv_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dm_rd_one_data ,
                              sf_airy_Bi_deriv_e_data,
                              PyGSL_sf_ufunc_qi_dm_rd_one_types,
@@ -964,7 +964,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dm_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_airy_Bi_deriv_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_airy_Bi_deriv as pyton name*/
+/*Using sf_airy_Bi_deriv as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dm__one_data ,
                              sf_airy_Bi_deriv_data,
                              PyGSL_sf_ufunc_pd_dm__one_types,
@@ -978,7 +978,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dm__one_data ,
 PyDict_SetItemString(sf_dict, "sf_airy_Bi_deriv", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_airy_Ai_deriv_scaled_e as pyton name*/
+/*Using sf_airy_Ai_deriv_scaled_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dm_rd_one_data ,
                              sf_airy_Ai_deriv_scaled_e_data,
                              PyGSL_sf_ufunc_qi_dm_rd_one_types,
@@ -992,7 +992,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dm_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_airy_Ai_deriv_scaled_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_airy_Ai_deriv_scaled as pyton name*/
+/*Using sf_airy_Ai_deriv_scaled as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dm__one_data ,
                              sf_airy_Ai_deriv_scaled_data,
                              PyGSL_sf_ufunc_pd_dm__one_types,
@@ -1006,7 +1006,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dm__one_data ,
 PyDict_SetItemString(sf_dict, "sf_airy_Ai_deriv_scaled", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_airy_Bi_deriv_scaled_e as pyton name*/
+/*Using sf_airy_Bi_deriv_scaled_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dm_rd_one_data ,
                              sf_airy_Bi_deriv_scaled_e_data,
                              PyGSL_sf_ufunc_qi_dm_rd_one_types,
@@ -1020,7 +1020,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dm_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_airy_Bi_deriv_scaled_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_airy_Bi_deriv_scaled as pyton name*/
+/*Using sf_airy_Bi_deriv_scaled as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dm__one_data ,
                              sf_airy_Bi_deriv_scaled_data,
                              PyGSL_sf_ufunc_pd_dm__one_types,
@@ -1034,7 +1034,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dm__one_data ,
 PyDict_SetItemString(sf_dict, "sf_airy_Bi_deriv_scaled", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_airy_zero_Ai_e as pyton name*/
+/*Using sf_airy_zero_Ai_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_ui_rd_one_data ,
                              sf_airy_zero_Ai_e_data,
                              PyGSL_sf_ufunc_qi_ui_rd_one_types,
@@ -1048,7 +1048,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_ui_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_airy_zero_Ai_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_airy_zero_Ai as pyton name*/
+/*Using sf_airy_zero_Ai as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_ui__one_data ,
                              sf_airy_zero_Ai_data,
                              PyGSL_sf_ufunc_pd_ui__one_types,
@@ -1062,7 +1062,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_ui__one_data ,
 PyDict_SetItemString(sf_dict, "sf_airy_zero_Ai", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_airy_zero_Bi_e as pyton name*/
+/*Using sf_airy_zero_Bi_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_ui_rd_one_data ,
                              sf_airy_zero_Bi_e_data,
                              PyGSL_sf_ufunc_qi_ui_rd_one_types,
@@ -1076,7 +1076,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_ui_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_airy_zero_Bi_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_airy_zero_Bi as pyton name*/
+/*Using sf_airy_zero_Bi as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_ui__one_data ,
                              sf_airy_zero_Bi_data,
                              PyGSL_sf_ufunc_pd_ui__one_types,
@@ -1090,7 +1090,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_ui__one_data ,
 PyDict_SetItemString(sf_dict, "sf_airy_zero_Bi", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_airy_zero_Ai_deriv_e as pyton name*/
+/*Using sf_airy_zero_Ai_deriv_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_ui_rd_one_data ,
                              sf_airy_zero_Ai_deriv_e_data,
                              PyGSL_sf_ufunc_qi_ui_rd_one_types,
@@ -1104,7 +1104,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_ui_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_airy_zero_Ai_deriv_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_airy_zero_Ai_deriv as pyton name*/
+/*Using sf_airy_zero_Ai_deriv as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_ui__one_data ,
                              sf_airy_zero_Ai_deriv_data,
                              PyGSL_sf_ufunc_pd_ui__one_types,
@@ -1118,7 +1118,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_ui__one_data ,
 PyDict_SetItemString(sf_dict, "sf_airy_zero_Ai_deriv", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_airy_zero_Bi_deriv_e as pyton name*/
+/*Using sf_airy_zero_Bi_deriv_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_ui_rd_one_data ,
                              sf_airy_zero_Bi_deriv_e_data,
                              PyGSL_sf_ufunc_qi_ui_rd_one_types,
@@ -1132,7 +1132,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_ui_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_airy_zero_Bi_deriv_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_airy_zero_Bi_deriv as pyton name*/
+/*Using sf_airy_zero_Bi_deriv as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_ui__one_data ,
                              sf_airy_zero_Bi_deriv_data,
                              PyGSL_sf_ufunc_pd_ui__one_types,
@@ -1146,7 +1146,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_ui__one_data ,
 PyDict_SetItemString(sf_dict, "sf_airy_zero_Bi_deriv", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_J0_e as pyton name*/
+/*Using sf_bessel_J0_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_bessel_J0_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -1160,7 +1160,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_J0_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_J0 as pyton name*/
+/*Using sf_bessel_J0 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_bessel_J0_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -1174,7 +1174,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_J0", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_J1_e as pyton name*/
+/*Using sf_bessel_J1_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_bessel_J1_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -1188,7 +1188,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_J1_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_J1 as pyton name*/
+/*Using sf_bessel_J1 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_bessel_J1_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -1202,7 +1202,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_J1", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_Jn_e as pyton name*/
+/*Using sf_bessel_Jn_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_id_rd_one_data ,
                              sf_bessel_Jn_e_data,
                              PyGSL_sf_ufunc_qi_id_rd_one_types,
@@ -1216,7 +1216,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_id_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_Jn_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_Jn as pyton name*/
+/*Using sf_bessel_Jn as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_id__one_data ,
                              sf_bessel_Jn_data,
                              PyGSL_sf_ufunc_pd_id__one_types,
@@ -1230,7 +1230,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_id__one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_Jn", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_Y0_e as pyton name*/
+/*Using sf_bessel_Y0_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_bessel_Y0_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -1244,7 +1244,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_Y0_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_Y0 as pyton name*/
+/*Using sf_bessel_Y0 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_bessel_Y0_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -1258,7 +1258,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_Y0", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_Y1_e as pyton name*/
+/*Using sf_bessel_Y1_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_bessel_Y1_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -1272,7 +1272,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_Y1_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_Y1 as pyton name*/
+/*Using sf_bessel_Y1 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_bessel_Y1_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -1286,7 +1286,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_Y1", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_Yn_e as pyton name*/
+/*Using sf_bessel_Yn_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_id_rd_one_data ,
                              sf_bessel_Yn_e_data,
                              PyGSL_sf_ufunc_qi_id_rd_one_types,
@@ -1300,7 +1300,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_id_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_Yn_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_Yn as pyton name*/
+/*Using sf_bessel_Yn as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_id__one_data ,
                              sf_bessel_Yn_data,
                              PyGSL_sf_ufunc_pd_id__one_types,
@@ -1314,7 +1314,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_id__one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_Yn", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_I0_e as pyton name*/
+/*Using sf_bessel_I0_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_bessel_I0_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -1328,7 +1328,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_I0_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_I0 as pyton name*/
+/*Using sf_bessel_I0 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_bessel_I0_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -1342,7 +1342,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_I0", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_I1_e as pyton name*/
+/*Using sf_bessel_I1_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_bessel_I1_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -1356,7 +1356,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_I1_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_I1 as pyton name*/
+/*Using sf_bessel_I1 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_bessel_I1_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -1370,7 +1370,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_I1", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_In_e as pyton name*/
+/*Using sf_bessel_In_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_id_rd_one_data ,
                              sf_bessel_In_e_data,
                              PyGSL_sf_ufunc_qi_id_rd_one_types,
@@ -1384,7 +1384,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_id_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_In_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_In as pyton name*/
+/*Using sf_bessel_In as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_id__one_data ,
                              sf_bessel_In_data,
                              PyGSL_sf_ufunc_pd_id__one_types,
@@ -1398,7 +1398,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_id__one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_In", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_I0_scaled_e as pyton name*/
+/*Using sf_bessel_I0_scaled_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_bessel_I0_scaled_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -1412,7 +1412,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_I0_scaled_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_I0_scaled as pyton name*/
+/*Using sf_bessel_I0_scaled as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_bessel_I0_scaled_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -1426,7 +1426,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_I0_scaled", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_I1_scaled_e as pyton name*/
+/*Using sf_bessel_I1_scaled_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_bessel_I1_scaled_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -1440,7 +1440,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_I1_scaled_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_I1_scaled as pyton name*/
+/*Using sf_bessel_I1_scaled as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_bessel_I1_scaled_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -1454,7 +1454,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_I1_scaled", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_In_scaled_e as pyton name*/
+/*Using sf_bessel_In_scaled_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_id_rd_one_data ,
                              sf_bessel_In_scaled_e_data,
                              PyGSL_sf_ufunc_qi_id_rd_one_types,
@@ -1468,7 +1468,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_id_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_In_scaled_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_In_scaled as pyton name*/
+/*Using sf_bessel_In_scaled as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_id__one_data ,
                              sf_bessel_In_scaled_data,
                              PyGSL_sf_ufunc_pd_id__one_types,
@@ -1482,7 +1482,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_id__one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_In_scaled", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_K0_e as pyton name*/
+/*Using sf_bessel_K0_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_bessel_K0_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -1496,7 +1496,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_K0_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_K0 as pyton name*/
+/*Using sf_bessel_K0 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_bessel_K0_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -1510,7 +1510,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_K0", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_K1_e as pyton name*/
+/*Using sf_bessel_K1_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_bessel_K1_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -1524,7 +1524,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_K1_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_K1 as pyton name*/
+/*Using sf_bessel_K1 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_bessel_K1_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -1538,7 +1538,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_K1", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_Kn_e as pyton name*/
+/*Using sf_bessel_Kn_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_id_rd_one_data ,
                              sf_bessel_Kn_e_data,
                              PyGSL_sf_ufunc_qi_id_rd_one_types,
@@ -1552,7 +1552,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_id_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_Kn_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_Kn as pyton name*/
+/*Using sf_bessel_Kn as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_id__one_data ,
                              sf_bessel_Kn_data,
                              PyGSL_sf_ufunc_pd_id__one_types,
@@ -1566,7 +1566,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_id__one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_Kn", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_K0_scaled_e as pyton name*/
+/*Using sf_bessel_K0_scaled_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_bessel_K0_scaled_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -1580,7 +1580,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_K0_scaled_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_K0_scaled as pyton name*/
+/*Using sf_bessel_K0_scaled as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_bessel_K0_scaled_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -1594,7 +1594,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_K0_scaled", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_K1_scaled_e as pyton name*/
+/*Using sf_bessel_K1_scaled_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_bessel_K1_scaled_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -1608,7 +1608,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_K1_scaled_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_K1_scaled as pyton name*/
+/*Using sf_bessel_K1_scaled as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_bessel_K1_scaled_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -1622,7 +1622,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_K1_scaled", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_Kn_scaled_e as pyton name*/
+/*Using sf_bessel_Kn_scaled_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_id_rd_one_data ,
                              sf_bessel_Kn_scaled_e_data,
                              PyGSL_sf_ufunc_qi_id_rd_one_types,
@@ -1636,7 +1636,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_id_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_Kn_scaled_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_Kn_scaled as pyton name*/
+/*Using sf_bessel_Kn_scaled as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_id__one_data ,
                              sf_bessel_Kn_scaled_data,
                              PyGSL_sf_ufunc_pd_id__one_types,
@@ -1650,7 +1650,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_id__one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_Kn_scaled", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_j0_e as pyton name*/
+/*Using sf_bessel_j0_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_bessel_j0_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -1664,7 +1664,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_j0_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_j0 as pyton name*/
+/*Using sf_bessel_j0 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_bessel_j0_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -1678,7 +1678,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_j0", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_j1_e as pyton name*/
+/*Using sf_bessel_j1_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_bessel_j1_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -1692,7 +1692,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_j1_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_j1 as pyton name*/
+/*Using sf_bessel_j1 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_bessel_j1_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -1706,7 +1706,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_j1", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_j2_e as pyton name*/
+/*Using sf_bessel_j2_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_bessel_j2_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -1720,7 +1720,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_j2_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_j2 as pyton name*/
+/*Using sf_bessel_j2 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_bessel_j2_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -1734,7 +1734,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_j2", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_jl_e as pyton name*/
+/*Using sf_bessel_jl_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_id_rd_one_data ,
                              sf_bessel_jl_e_data,
                              PyGSL_sf_ufunc_qi_id_rd_one_types,
@@ -1748,7 +1748,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_id_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_jl_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_jl as pyton name*/
+/*Using sf_bessel_jl as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_id__one_data ,
                              sf_bessel_jl_data,
                              PyGSL_sf_ufunc_pd_id__one_types,
@@ -1762,7 +1762,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_id__one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_jl", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_y0_e as pyton name*/
+/*Using sf_bessel_y0_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_bessel_y0_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -1776,7 +1776,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_y0_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_y0 as pyton name*/
+/*Using sf_bessel_y0 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_bessel_y0_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -1790,7 +1790,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_y0", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_y1_e as pyton name*/
+/*Using sf_bessel_y1_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_bessel_y1_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -1804,7 +1804,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_y1_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_y1 as pyton name*/
+/*Using sf_bessel_y1 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_bessel_y1_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -1818,7 +1818,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_y1", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_y2_e as pyton name*/
+/*Using sf_bessel_y2_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_bessel_y2_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -1832,7 +1832,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_y2_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_y2 as pyton name*/
+/*Using sf_bessel_y2 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_bessel_y2_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -1846,7 +1846,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_y2", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_yl_e as pyton name*/
+/*Using sf_bessel_yl_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_id_rd_one_data ,
                              sf_bessel_yl_e_data,
                              PyGSL_sf_ufunc_qi_id_rd_one_types,
@@ -1860,7 +1860,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_id_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_yl_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_yl as pyton name*/
+/*Using sf_bessel_yl as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_id__one_data ,
                              sf_bessel_yl_data,
                              PyGSL_sf_ufunc_pd_id__one_types,
@@ -1874,7 +1874,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_id__one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_yl", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_i0_scaled_e as pyton name*/
+/*Using sf_bessel_i0_scaled_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_bessel_i0_scaled_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -1888,7 +1888,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_i0_scaled_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_i0_scaled as pyton name*/
+/*Using sf_bessel_i0_scaled as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_bessel_i0_scaled_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -1902,7 +1902,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_i0_scaled", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_i1_scaled_e as pyton name*/
+/*Using sf_bessel_i1_scaled_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_bessel_i1_scaled_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -1916,7 +1916,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_i1_scaled_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_i1_scaled as pyton name*/
+/*Using sf_bessel_i1_scaled as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_bessel_i1_scaled_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -1930,7 +1930,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_i1_scaled", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_i2_scaled_e as pyton name*/
+/*Using sf_bessel_i2_scaled_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_bessel_i2_scaled_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -1944,7 +1944,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_i2_scaled_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_i2_scaled as pyton name*/
+/*Using sf_bessel_i2_scaled as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_bessel_i2_scaled_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -1958,7 +1958,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_i2_scaled", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_il_scaled_e as pyton name*/
+/*Using sf_bessel_il_scaled_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_id_rd_one_data ,
                              sf_bessel_il_scaled_e_data,
                              PyGSL_sf_ufunc_qi_id_rd_one_types,
@@ -1972,7 +1972,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_id_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_il_scaled_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_il_scaled as pyton name*/
+/*Using sf_bessel_il_scaled as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_id__one_data ,
                              sf_bessel_il_scaled_data,
                              PyGSL_sf_ufunc_pd_id__one_types,
@@ -1986,7 +1986,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_id__one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_il_scaled", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_k0_scaled_e as pyton name*/
+/*Using sf_bessel_k0_scaled_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_bessel_k0_scaled_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -2000,7 +2000,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_k0_scaled_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_k0_scaled as pyton name*/
+/*Using sf_bessel_k0_scaled as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_bessel_k0_scaled_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -2014,7 +2014,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_k0_scaled", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_k1_scaled_e as pyton name*/
+/*Using sf_bessel_k1_scaled_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_bessel_k1_scaled_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -2028,7 +2028,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_k1_scaled_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_k1_scaled as pyton name*/
+/*Using sf_bessel_k1_scaled as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_bessel_k1_scaled_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -2042,7 +2042,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_k1_scaled", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_k2_scaled_e as pyton name*/
+/*Using sf_bessel_k2_scaled_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_bessel_k2_scaled_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -2056,7 +2056,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_k2_scaled_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_k2_scaled as pyton name*/
+/*Using sf_bessel_k2_scaled as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_bessel_k2_scaled_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -2070,7 +2070,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_k2_scaled", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_kl_scaled_e as pyton name*/
+/*Using sf_bessel_kl_scaled_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_id_rd_one_data ,
                              sf_bessel_kl_scaled_e_data,
                              PyGSL_sf_ufunc_qi_id_rd_one_types,
@@ -2084,7 +2084,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_id_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_kl_scaled_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_kl_scaled as pyton name*/
+/*Using sf_bessel_kl_scaled as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_id__one_data ,
                              sf_bessel_kl_scaled_data,
                              PyGSL_sf_ufunc_pd_id__one_types,
@@ -2098,7 +2098,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_id__one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_kl_scaled", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_Jnu_e as pyton name*/
+/*Using sf_bessel_Jnu_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
                              sf_bessel_Jnu_e_data,
                              PyGSL_sf_ufunc_qi_dd_rd_one_types,
@@ -2112,7 +2112,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_Jnu_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_Jnu as pyton name*/
+/*Using sf_bessel_Jnu as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
                              sf_bessel_Jnu_data,
                              PyGSL_sf_ufunc_pd_dd__one_types,
@@ -2126,7 +2126,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_Jnu", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_Ynu_e as pyton name*/
+/*Using sf_bessel_Ynu_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
                              sf_bessel_Ynu_e_data,
                              PyGSL_sf_ufunc_qi_dd_rd_one_types,
@@ -2140,7 +2140,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_Ynu_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_Ynu as pyton name*/
+/*Using sf_bessel_Ynu as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
                              sf_bessel_Ynu_data,
                              PyGSL_sf_ufunc_pd_dd__one_types,
@@ -2154,7 +2154,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_Ynu", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_Inu_scaled_e as pyton name*/
+/*Using sf_bessel_Inu_scaled_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
                              sf_bessel_Inu_scaled_e_data,
                              PyGSL_sf_ufunc_qi_dd_rd_one_types,
@@ -2168,7 +2168,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_Inu_scaled_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_Inu_scaled as pyton name*/
+/*Using sf_bessel_Inu_scaled as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
                              sf_bessel_Inu_scaled_data,
                              PyGSL_sf_ufunc_pd_dd__one_types,
@@ -2182,7 +2182,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_Inu_scaled", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_Inu_e as pyton name*/
+/*Using sf_bessel_Inu_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
                              sf_bessel_Inu_e_data,
                              PyGSL_sf_ufunc_qi_dd_rd_one_types,
@@ -2196,7 +2196,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_Inu_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_Inu as pyton name*/
+/*Using sf_bessel_Inu as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
                              sf_bessel_Inu_data,
                              PyGSL_sf_ufunc_pd_dd__one_types,
@@ -2210,7 +2210,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_Inu", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_Knu_scaled_e as pyton name*/
+/*Using sf_bessel_Knu_scaled_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
                              sf_bessel_Knu_scaled_e_data,
                              PyGSL_sf_ufunc_qi_dd_rd_one_types,
@@ -2224,7 +2224,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_Knu_scaled_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_Knu_scaled as pyton name*/
+/*Using sf_bessel_Knu_scaled as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
                              sf_bessel_Knu_scaled_data,
                              PyGSL_sf_ufunc_pd_dd__one_types,
@@ -2238,7 +2238,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_Knu_scaled", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_Knu_e as pyton name*/
+/*Using sf_bessel_Knu_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
                              sf_bessel_Knu_e_data,
                              PyGSL_sf_ufunc_qi_dd_rd_one_types,
@@ -2252,7 +2252,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_Knu_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_Knu as pyton name*/
+/*Using sf_bessel_Knu as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
                              sf_bessel_Knu_data,
                              PyGSL_sf_ufunc_pd_dd__one_types,
@@ -2266,7 +2266,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_Knu", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_lnKnu_e as pyton name*/
+/*Using sf_bessel_lnKnu_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
                              sf_bessel_lnKnu_e_data,
                              PyGSL_sf_ufunc_qi_dd_rd_one_types,
@@ -2280,7 +2280,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_lnKnu_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_lnKnu as pyton name*/
+/*Using sf_bessel_lnKnu as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
                              sf_bessel_lnKnu_data,
                              PyGSL_sf_ufunc_pd_dd__one_types,
@@ -2294,7 +2294,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_lnKnu", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_zero_J0_e as pyton name*/
+/*Using sf_bessel_zero_J0_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_ui_rd_one_data ,
                              sf_bessel_zero_J0_e_data,
                              PyGSL_sf_ufunc_qi_ui_rd_one_types,
@@ -2308,7 +2308,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_ui_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_zero_J0_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_zero_J0 as pyton name*/
+/*Using sf_bessel_zero_J0 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_ui__one_data ,
                              sf_bessel_zero_J0_data,
                              PyGSL_sf_ufunc_pd_ui__one_types,
@@ -2322,7 +2322,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_ui__one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_zero_J0", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_zero_J1_e as pyton name*/
+/*Using sf_bessel_zero_J1_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_ui_rd_one_data ,
                              sf_bessel_zero_J1_e_data,
                              PyGSL_sf_ufunc_qi_ui_rd_one_types,
@@ -2336,7 +2336,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_ui_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_zero_J1_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_zero_J1 as pyton name*/
+/*Using sf_bessel_zero_J1 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_ui__one_data ,
                              sf_bessel_zero_J1_data,
                              PyGSL_sf_ufunc_pd_ui__one_types,
@@ -2350,7 +2350,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_ui__one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_zero_J1", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_zero_Jnu_e as pyton name*/
+/*Using sf_bessel_zero_Jnu_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dui_rd_one_data ,
                              sf_bessel_zero_Jnu_e_data,
                              PyGSL_sf_ufunc_qi_dui_rd_one_types,
@@ -2364,7 +2364,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dui_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_zero_Jnu_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_bessel_zero_Jnu as pyton name*/
+/*Using sf_bessel_zero_Jnu as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dui__one_data ,
                              sf_bessel_zero_Jnu_data,
                              PyGSL_sf_ufunc_pd_dui__one_types,
@@ -2378,7 +2378,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dui__one_data ,
 PyDict_SetItemString(sf_dict, "sf_bessel_zero_Jnu", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_clausen_e as pyton name*/
+/*Using sf_clausen_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_clausen_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -2392,7 +2392,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_clausen_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_clausen as pyton name*/
+/*Using sf_clausen as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_clausen_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -2406,7 +2406,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_clausen", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_coupling_3j_e as pyton name*/
+/*Using sf_coupling_3j_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_iiiiii_rd_one_data ,
                              sf_coupling_3j_e_data,
                              PyGSL_sf_ufunc_qi_iiiiii_rd_one_types,
@@ -2420,7 +2420,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_iiiiii_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_coupling_3j_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_coupling_3j as pyton name*/
+/*Using sf_coupling_3j as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_iiiiii__one_data ,
                              sf_coupling_3j_data,
                              PyGSL_sf_ufunc_pd_iiiiii__one_types,
@@ -2434,7 +2434,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_iiiiii__one_data ,
 PyDict_SetItemString(sf_dict, "sf_coupling_3j", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_coupling_6j_e as pyton name*/
+/*Using sf_coupling_6j_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_iiiiii_rd_one_data ,
                              sf_coupling_6j_e_data,
                              PyGSL_sf_ufunc_qi_iiiiii_rd_one_types,
@@ -2448,7 +2448,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_iiiiii_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_coupling_6j_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_coupling_6j as pyton name*/
+/*Using sf_coupling_6j as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_iiiiii__one_data ,
                              sf_coupling_6j_data,
                              PyGSL_sf_ufunc_pd_iiiiii__one_types,
@@ -2462,7 +2462,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_iiiiii__one_data ,
 PyDict_SetItemString(sf_dict, "sf_coupling_6j", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_coupling_RacahW_e as pyton name*/
+/*Using sf_coupling_RacahW_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_iiiiii_rd_one_data ,
                              sf_coupling_RacahW_e_data,
                              PyGSL_sf_ufunc_qi_iiiiii_rd_one_types,
@@ -2476,7 +2476,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_iiiiii_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_coupling_RacahW_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_coupling_RacahW as pyton name*/
+/*Using sf_coupling_RacahW as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_iiiiii__one_data ,
                              sf_coupling_RacahW_data,
                              PyGSL_sf_ufunc_pd_iiiiii__one_types,
@@ -2490,7 +2490,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_iiiiii__one_data ,
 PyDict_SetItemString(sf_dict, "sf_coupling_RacahW", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_coupling_9j_e as pyton name*/
+/*Using sf_coupling_9j_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_iiiiiiiii_rd_one_data ,
                              sf_coupling_9j_e_data,
                              PyGSL_sf_ufunc_qi_iiiiiiiii_rd_one_types,
@@ -2504,7 +2504,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_iiiiiiiii_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_coupling_9j_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_coupling_9j as pyton name*/
+/*Using sf_coupling_9j as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_iiiiiiiii__one_data ,
                              sf_coupling_9j_data,
                              PyGSL_sf_ufunc_pd_iiiiiiiii__one_types,
@@ -2518,7 +2518,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_iiiiiiiii__one_data ,
 PyDict_SetItemString(sf_dict, "sf_coupling_9j", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_coupling_6j_INCORRECT as pyton name*/
+/*Using sf_coupling_6j_INCORRECT as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_iiiiii__one_data ,
                              sf_coupling_6j_INCORRECT_data,
                              PyGSL_sf_ufunc_pd_iiiiii__one_types,
@@ -2532,7 +2532,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_iiiiii__one_data ,
 PyDict_SetItemString(sf_dict, "sf_coupling_6j_INCORRECT", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_hydrogenicR_1_e as pyton name*/
+/*Using sf_hydrogenicR_1_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
                              sf_hydrogenicR_1_e_data,
                              PyGSL_sf_ufunc_qi_dd_rd_one_types,
@@ -2546,7 +2546,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_hydrogenicR_1_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_hydrogenicR_1 as pyton name*/
+/*Using sf_hydrogenicR_1 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
                              sf_hydrogenicR_1_data,
                              PyGSL_sf_ufunc_pd_dd__one_types,
@@ -2560,7 +2560,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
 PyDict_SetItemString(sf_dict, "sf_hydrogenicR_1", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_hydrogenicR_e as pyton name*/
+/*Using sf_hydrogenicR_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_iidd_rd_one_data ,
                              sf_hydrogenicR_e_data,
                              PyGSL_sf_ufunc_qi_iidd_rd_one_types,
@@ -2574,7 +2574,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_iidd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_hydrogenicR_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_hydrogenicR as pyton name*/
+/*Using sf_hydrogenicR as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_iidd__one_data ,
                              sf_hydrogenicR_data,
                              PyGSL_sf_ufunc_pd_iidd__one_types,
@@ -2588,7 +2588,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_iidd__one_data ,
 PyDict_SetItemString(sf_dict, "sf_hydrogenicR", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_coulomb_wave_FG_e as pyton name*/
+/*Using sf_coulomb_wave_FG_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dddi_rdrdrdrddd_one_data ,
                              sf_coulomb_wave_FG_e_data,
                              PyGSL_sf_ufunc_qi_dddi_rdrdrdrddd_one_types,
@@ -2602,7 +2602,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dddi_rdrdrdrddd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_coulomb_wave_FG_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_coulomb_CL_e as pyton name*/
+/*Using sf_coulomb_CL_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
                              sf_coulomb_CL_e_data,
                              PyGSL_sf_ufunc_qi_dd_rd_one_types,
@@ -2616,7 +2616,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_coulomb_CL_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_dawson_e as pyton name*/
+/*Using sf_dawson_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_dawson_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -2630,7 +2630,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_dawson_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_dawson as pyton name*/
+/*Using sf_dawson as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_dawson_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -2644,7 +2644,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_dawson", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_debye_1_e as pyton name*/
+/*Using sf_debye_1_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_debye_1_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -2658,7 +2658,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_debye_1_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_debye_1 as pyton name*/
+/*Using sf_debye_1 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_debye_1_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -2672,7 +2672,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_debye_1", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_debye_2_e as pyton name*/
+/*Using sf_debye_2_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_debye_2_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -2686,7 +2686,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_debye_2_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_debye_2 as pyton name*/
+/*Using sf_debye_2 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_debye_2_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -2700,7 +2700,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_debye_2", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_debye_3_e as pyton name*/
+/*Using sf_debye_3_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_debye_3_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -2714,7 +2714,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_debye_3_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_debye_3 as pyton name*/
+/*Using sf_debye_3 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_debye_3_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -2728,7 +2728,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_debye_3", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_debye_4_e as pyton name*/
+/*Using sf_debye_4_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_debye_4_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -2742,7 +2742,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_debye_4_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_debye_4 as pyton name*/
+/*Using sf_debye_4 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_debye_4_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -2756,7 +2756,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_debye_4", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_debye_5_e as pyton name*/
+/*Using sf_debye_5_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_debye_5_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -2770,7 +2770,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_debye_5_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_debye_5 as pyton name*/
+/*Using sf_debye_5 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_debye_5_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -2784,7 +2784,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_debye_5", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_debye_6_e as pyton name*/
+/*Using sf_debye_6_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_debye_6_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -2798,7 +2798,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_debye_6_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_debye_6 as pyton name*/
+/*Using sf_debye_6 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_debye_6_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -2812,7 +2812,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_debye_6", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_dilog_e as pyton name*/
+/*Using sf_dilog_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_dilog_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -2826,7 +2826,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_dilog_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_dilog as pyton name*/
+/*Using sf_dilog as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_dilog_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -2840,7 +2840,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_dilog", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_complex_dilog_xy_e as pyton name*/
+/*Using sf_complex_dilog_xy_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rdrd_one_data ,
                              sf_complex_dilog_xy_e_data,
                              PyGSL_sf_ufunc_qi_dd_rdrd_one_types,
@@ -2854,7 +2854,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rdrd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_complex_dilog_xy_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_complex_spence_xy_e as pyton name*/
+/*Using sf_complex_spence_xy_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rdrd_one_data ,
                              sf_complex_spence_xy_e_data,
                              PyGSL_sf_ufunc_qi_dd_rdrd_one_types,
@@ -2868,7 +2868,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rdrd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_complex_spence_xy_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_multiply_e as pyton name*/
+/*Using sf_multiply_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
                              sf_multiply_e_data,
                              PyGSL_sf_ufunc_qi_dd_rd_one_types,
@@ -2882,7 +2882,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_multiply_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_multiply as pyton name*/
+/*Using sf_multiply as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
                              sf_multiply_data,
                              PyGSL_sf_ufunc_pd_dd__one_types,
@@ -2896,7 +2896,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
 PyDict_SetItemString(sf_dict, "sf_multiply", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_multiply_err_e as pyton name*/
+/*Using sf_multiply_err_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dddd_rd_one_data ,
                              sf_multiply_err_e_data,
                              PyGSL_sf_ufunc_qi_dddd_rd_one_types,
@@ -2910,7 +2910,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dddd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_multiply_err_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_ellint_Kcomp_e as pyton name*/
+/*Using sf_ellint_Kcomp_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dm_rd_one_data ,
                              sf_ellint_Kcomp_e_data,
                              PyGSL_sf_ufunc_qi_dm_rd_one_types,
@@ -2924,7 +2924,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dm_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_ellint_Kcomp_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_ellint_Kcomp as pyton name*/
+/*Using sf_ellint_Kcomp as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dm__one_data ,
                              sf_ellint_Kcomp_data,
                              PyGSL_sf_ufunc_pd_dm__one_types,
@@ -2938,7 +2938,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dm__one_data ,
 PyDict_SetItemString(sf_dict, "sf_ellint_Kcomp", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_ellint_Ecomp_e as pyton name*/
+/*Using sf_ellint_Ecomp_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dm_rd_one_data ,
                              sf_ellint_Ecomp_e_data,
                              PyGSL_sf_ufunc_qi_dm_rd_one_types,
@@ -2952,7 +2952,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dm_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_ellint_Ecomp_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_ellint_Ecomp as pyton name*/
+/*Using sf_ellint_Ecomp as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dm__one_data ,
                              sf_ellint_Ecomp_data,
                              PyGSL_sf_ufunc_pd_dm__one_types,
@@ -2966,7 +2966,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dm__one_data ,
 PyDict_SetItemString(sf_dict, "sf_ellint_Ecomp", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_ellint_Pcomp_e as pyton name*/
+/*Using sf_ellint_Pcomp_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_ddm_rd_one_data ,
                              sf_ellint_Pcomp_e_data,
                              PyGSL_sf_ufunc_qi_ddm_rd_one_types,
@@ -2980,7 +2980,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_ddm_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_ellint_Pcomp_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_ellint_Pcomp as pyton name*/
+/*Using sf_ellint_Pcomp as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_ddm__one_data ,
                              sf_ellint_Pcomp_data,
                              PyGSL_sf_ufunc_pd_ddm__one_types,
@@ -2994,7 +2994,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_ddm__one_data ,
 PyDict_SetItemString(sf_dict, "sf_ellint_Pcomp", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_ellint_Dcomp_e as pyton name*/
+/*Using sf_ellint_Dcomp_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dm_rd_one_data ,
                              sf_ellint_Dcomp_e_data,
                              PyGSL_sf_ufunc_qi_dm_rd_one_types,
@@ -3008,7 +3008,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dm_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_ellint_Dcomp_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_ellint_Dcomp as pyton name*/
+/*Using sf_ellint_Dcomp as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dm__one_data ,
                              sf_ellint_Dcomp_data,
                              PyGSL_sf_ufunc_pd_dm__one_types,
@@ -3022,7 +3022,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dm__one_data ,
 PyDict_SetItemString(sf_dict, "sf_ellint_Dcomp", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_ellint_F_e as pyton name*/
+/*Using sf_ellint_F_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_ddm_rd_one_data ,
                              sf_ellint_F_e_data,
                              PyGSL_sf_ufunc_qi_ddm_rd_one_types,
@@ -3036,7 +3036,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_ddm_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_ellint_F_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_ellint_F as pyton name*/
+/*Using sf_ellint_F as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_ddm__one_data ,
                              sf_ellint_F_data,
                              PyGSL_sf_ufunc_pd_ddm__one_types,
@@ -3050,7 +3050,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_ddm__one_data ,
 PyDict_SetItemString(sf_dict, "sf_ellint_F", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_ellint_E_e as pyton name*/
+/*Using sf_ellint_E_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_ddm_rd_one_data ,
                              sf_ellint_E_e_data,
                              PyGSL_sf_ufunc_qi_ddm_rd_one_types,
@@ -3064,7 +3064,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_ddm_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_ellint_E_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_ellint_E as pyton name*/
+/*Using sf_ellint_E as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_ddm__one_data ,
                              sf_ellint_E_data,
                              PyGSL_sf_ufunc_pd_ddm__one_types,
@@ -3078,7 +3078,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_ddm__one_data ,
 PyDict_SetItemString(sf_dict, "sf_ellint_E", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_ellint_P_e as pyton name*/
+/*Using sf_ellint_P_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dddm_rd_one_data ,
                              sf_ellint_P_e_data,
                              PyGSL_sf_ufunc_qi_dddm_rd_one_types,
@@ -3092,7 +3092,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dddm_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_ellint_P_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_ellint_P as pyton name*/
+/*Using sf_ellint_P as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dddm__one_data ,
                              sf_ellint_P_data,
                              PyGSL_sf_ufunc_pd_dddm__one_types,
@@ -3106,7 +3106,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dddm__one_data ,
 PyDict_SetItemString(sf_dict, "sf_ellint_P", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_ellint_D_e as pyton name*/
+/*Using sf_ellint_D_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dddm_rd_one_data ,
                              sf_ellint_D_e_data,
                              PyGSL_sf_ufunc_qi_dddm_rd_one_types,
@@ -3120,7 +3120,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dddm_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_ellint_D_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_ellint_D as pyton name*/
+/*Using sf_ellint_D as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dddm__one_data ,
                              sf_ellint_D_data,
                              PyGSL_sf_ufunc_pd_dddm__one_types,
@@ -3134,7 +3134,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dddm__one_data ,
 PyDict_SetItemString(sf_dict, "sf_ellint_D", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_ellint_RC_e as pyton name*/
+/*Using sf_ellint_RC_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_ddm_rd_one_data ,
                              sf_ellint_RC_e_data,
                              PyGSL_sf_ufunc_qi_ddm_rd_one_types,
@@ -3148,7 +3148,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_ddm_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_ellint_RC_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_ellint_RC as pyton name*/
+/*Using sf_ellint_RC as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_ddm__one_data ,
                              sf_ellint_RC_data,
                              PyGSL_sf_ufunc_pd_ddm__one_types,
@@ -3162,7 +3162,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_ddm__one_data ,
 PyDict_SetItemString(sf_dict, "sf_ellint_RC", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_ellint_RD_e as pyton name*/
+/*Using sf_ellint_RD_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dddm_rd_one_data ,
                              sf_ellint_RD_e_data,
                              PyGSL_sf_ufunc_qi_dddm_rd_one_types,
@@ -3176,7 +3176,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dddm_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_ellint_RD_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_ellint_RD as pyton name*/
+/*Using sf_ellint_RD as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dddm__one_data ,
                              sf_ellint_RD_data,
                              PyGSL_sf_ufunc_pd_dddm__one_types,
@@ -3190,7 +3190,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dddm__one_data ,
 PyDict_SetItemString(sf_dict, "sf_ellint_RD", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_ellint_RF_e as pyton name*/
+/*Using sf_ellint_RF_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dddm_rd_one_data ,
                              sf_ellint_RF_e_data,
                              PyGSL_sf_ufunc_qi_dddm_rd_one_types,
@@ -3204,7 +3204,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dddm_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_ellint_RF_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_ellint_RF as pyton name*/
+/*Using sf_ellint_RF as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dddm__one_data ,
                              sf_ellint_RF_data,
                              PyGSL_sf_ufunc_pd_dddm__one_types,
@@ -3218,7 +3218,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dddm__one_data ,
 PyDict_SetItemString(sf_dict, "sf_ellint_RF", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_ellint_RJ_e as pyton name*/
+/*Using sf_ellint_RJ_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_ddddm_rd_one_data ,
                              sf_ellint_RJ_e_data,
                              PyGSL_sf_ufunc_qi_ddddm_rd_one_types,
@@ -3232,7 +3232,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_ddddm_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_ellint_RJ_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_ellint_RJ as pyton name*/
+/*Using sf_ellint_RJ as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_ddddm__one_data ,
                              sf_ellint_RJ_data,
                              PyGSL_sf_ufunc_pd_ddddm__one_types,
@@ -3246,7 +3246,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_ddddm__one_data ,
 PyDict_SetItemString(sf_dict, "sf_ellint_RJ", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_elljac_e as pyton name*/
+/*Using sf_elljac_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_ddd_one_data ,
                              sf_elljac_e_data,
                              PyGSL_sf_ufunc_qi_dd_ddd_one_types,
@@ -3260,7 +3260,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_ddd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_elljac_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_erfc_e as pyton name*/
+/*Using sf_erfc_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_erfc_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -3274,7 +3274,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_erfc_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_erfc as pyton name*/
+/*Using sf_erfc as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_erfc_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -3288,7 +3288,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_erfc", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_log_erfc_e as pyton name*/
+/*Using sf_log_erfc_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_log_erfc_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -3302,7 +3302,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_log_erfc_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_log_erfc as pyton name*/
+/*Using sf_log_erfc as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_log_erfc_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -3316,7 +3316,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_log_erfc", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_erf_e as pyton name*/
+/*Using sf_erf_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_erf_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -3330,7 +3330,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_erf_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_erf as pyton name*/
+/*Using sf_erf as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_erf_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -3344,7 +3344,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_erf", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_erf_Z_e as pyton name*/
+/*Using sf_erf_Z_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_erf_Z_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -3358,7 +3358,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_erf_Z_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_erf_Q_e as pyton name*/
+/*Using sf_erf_Q_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_erf_Q_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -3372,7 +3372,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_erf_Q_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_erf_Z as pyton name*/
+/*Using sf_erf_Z as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_erf_Z_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -3386,7 +3386,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_erf_Z", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_erf_Q as pyton name*/
+/*Using sf_erf_Q as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_erf_Q_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -3400,7 +3400,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_erf_Q", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_hazard_e as pyton name*/
+/*Using sf_hazard_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_hazard_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -3414,7 +3414,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_hazard_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_hazard as pyton name*/
+/*Using sf_hazard as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_hazard_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -3428,7 +3428,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_hazard", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_exp_e as pyton name*/
+/*Using sf_exp_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_exp_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -3442,7 +3442,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_exp_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_exp as pyton name*/
+/*Using sf_exp as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_exp_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -3456,7 +3456,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_exp", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_exp_e10_e as pyton name*/
+/*Using sf_exp_e10_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_erd_one_data ,
                              sf_exp_e10_e_data,
                              PyGSL_sf_ufunc_qi_d_erd_one_types,
@@ -3470,7 +3470,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_erd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_exp_e10_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_exp_mult_e as pyton name*/
+/*Using sf_exp_mult_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
                              sf_exp_mult_e_data,
                              PyGSL_sf_ufunc_qi_dd_rd_one_types,
@@ -3484,7 +3484,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_exp_mult_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_exp_mult as pyton name*/
+/*Using sf_exp_mult as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
                              sf_exp_mult_data,
                              PyGSL_sf_ufunc_pd_dd__one_types,
@@ -3498,7 +3498,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
 PyDict_SetItemString(sf_dict, "sf_exp_mult", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_exp_mult_e10_e as pyton name*/
+/*Using sf_exp_mult_e10_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_erd_one_data ,
                              sf_exp_mult_e10_e_data,
                              PyGSL_sf_ufunc_qi_dd_erd_one_types,
@@ -3512,7 +3512,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_erd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_exp_mult_e10_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_expm1_e as pyton name*/
+/*Using sf_expm1_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_expm1_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -3526,7 +3526,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_expm1_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_expm1 as pyton name*/
+/*Using sf_expm1 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_expm1_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -3540,7 +3540,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_expm1", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_exprel_e as pyton name*/
+/*Using sf_exprel_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_exprel_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -3554,7 +3554,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_exprel_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_exprel as pyton name*/
+/*Using sf_exprel as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_exprel_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -3568,7 +3568,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_exprel", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_exprel_2_e as pyton name*/
+/*Using sf_exprel_2_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_exprel_2_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -3582,7 +3582,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_exprel_2_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_exprel_2 as pyton name*/
+/*Using sf_exprel_2 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_exprel_2_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -3596,7 +3596,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_exprel_2", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_exprel_n_e as pyton name*/
+/*Using sf_exprel_n_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_id_rd_one_data ,
                              sf_exprel_n_e_data,
                              PyGSL_sf_ufunc_qi_id_rd_one_types,
@@ -3610,7 +3610,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_id_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_exprel_n_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_exprel_n as pyton name*/
+/*Using sf_exprel_n as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_id__one_data ,
                              sf_exprel_n_data,
                              PyGSL_sf_ufunc_pd_id__one_types,
@@ -3624,7 +3624,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_id__one_data ,
 PyDict_SetItemString(sf_dict, "sf_exprel_n", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_exprel_n_CF_e as pyton name*/
+/*Using sf_exprel_n_CF_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
                              sf_exprel_n_CF_e_data,
                              PyGSL_sf_ufunc_qi_dd_rd_one_types,
@@ -3638,7 +3638,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_exprel_n_CF_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_exp_err_e as pyton name*/
+/*Using sf_exp_err_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
                              sf_exp_err_e_data,
                              PyGSL_sf_ufunc_qi_dd_rd_one_types,
@@ -3652,7 +3652,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_exp_err_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_exp_err_e10_e as pyton name*/
+/*Using sf_exp_err_e10_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_erd_one_data ,
                              sf_exp_err_e10_e_data,
                              PyGSL_sf_ufunc_qi_dd_erd_one_types,
@@ -3666,7 +3666,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_erd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_exp_err_e10_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_exp_mult_err_e as pyton name*/
+/*Using sf_exp_mult_err_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dddd_rd_one_data ,
                              sf_exp_mult_err_e_data,
                              PyGSL_sf_ufunc_qi_dddd_rd_one_types,
@@ -3680,7 +3680,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dddd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_exp_mult_err_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_exp_mult_err_e10_e as pyton name*/
+/*Using sf_exp_mult_err_e10_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dddd_erd_one_data ,
                              sf_exp_mult_err_e10_e_data,
                              PyGSL_sf_ufunc_qi_dddd_erd_one_types,
@@ -3694,7 +3694,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dddd_erd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_exp_mult_err_e10_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_expint_E1_e as pyton name*/
+/*Using sf_expint_E1_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_expint_E1_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -3708,7 +3708,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_expint_E1_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_expint_E1 as pyton name*/
+/*Using sf_expint_E1 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_expint_E1_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -3722,7 +3722,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_expint_E1", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_expint_E2_e as pyton name*/
+/*Using sf_expint_E2_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_expint_E2_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -3736,7 +3736,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_expint_E2_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_expint_E2 as pyton name*/
+/*Using sf_expint_E2 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_expint_E2_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -3750,7 +3750,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_expint_E2", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_expint_En_e as pyton name*/
+/*Using sf_expint_En_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_id_rd_one_data ,
                              sf_expint_En_e_data,
                              PyGSL_sf_ufunc_qi_id_rd_one_types,
@@ -3764,7 +3764,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_id_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_expint_En_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_expint_En as pyton name*/
+/*Using sf_expint_En as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_id__one_data ,
                              sf_expint_En_data,
                              PyGSL_sf_ufunc_pd_id__one_types,
@@ -3778,7 +3778,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_id__one_data ,
 PyDict_SetItemString(sf_dict, "sf_expint_En", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_expint_E1_scaled_e as pyton name*/
+/*Using sf_expint_E1_scaled_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_expint_E1_scaled_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -3792,7 +3792,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_expint_E1_scaled_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_expint_E1_scaled as pyton name*/
+/*Using sf_expint_E1_scaled as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_expint_E1_scaled_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -3806,7 +3806,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_expint_E1_scaled", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_expint_E2_scaled_e as pyton name*/
+/*Using sf_expint_E2_scaled_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_expint_E2_scaled_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -3820,7 +3820,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_expint_E2_scaled_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_expint_E2_scaled as pyton name*/
+/*Using sf_expint_E2_scaled as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_expint_E2_scaled_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -3834,7 +3834,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_expint_E2_scaled", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_expint_En_scaled_e as pyton name*/
+/*Using sf_expint_En_scaled_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_id_rd_one_data ,
                              sf_expint_En_scaled_e_data,
                              PyGSL_sf_ufunc_qi_id_rd_one_types,
@@ -3848,7 +3848,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_id_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_expint_En_scaled_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_expint_En_scaled as pyton name*/
+/*Using sf_expint_En_scaled as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_id__one_data ,
                              sf_expint_En_scaled_data,
                              PyGSL_sf_ufunc_pd_id__one_types,
@@ -3862,7 +3862,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_id__one_data ,
 PyDict_SetItemString(sf_dict, "sf_expint_En_scaled", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_expint_Ei_e as pyton name*/
+/*Using sf_expint_Ei_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_expint_Ei_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -3876,7 +3876,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_expint_Ei_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_expint_Ei as pyton name*/
+/*Using sf_expint_Ei as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_expint_Ei_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -3890,7 +3890,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_expint_Ei", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_expint_Ei_scaled_e as pyton name*/
+/*Using sf_expint_Ei_scaled_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_expint_Ei_scaled_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -3904,7 +3904,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_expint_Ei_scaled_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_expint_Ei_scaled as pyton name*/
+/*Using sf_expint_Ei_scaled as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_expint_Ei_scaled_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -3918,7 +3918,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_expint_Ei_scaled", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_Shi_e as pyton name*/
+/*Using sf_Shi_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_Shi_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -3932,7 +3932,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_Shi_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_Shi as pyton name*/
+/*Using sf_Shi as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_Shi_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -3946,7 +3946,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_Shi", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_Chi_e as pyton name*/
+/*Using sf_Chi_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_Chi_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -3960,7 +3960,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_Chi_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_Chi as pyton name*/
+/*Using sf_Chi as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_Chi_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -3974,7 +3974,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_Chi", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_expint_3_e as pyton name*/
+/*Using sf_expint_3_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_expint_3_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -3988,7 +3988,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_expint_3_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_expint_3 as pyton name*/
+/*Using sf_expint_3 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_expint_3_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -4002,7 +4002,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_expint_3", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_Si_e as pyton name*/
+/*Using sf_Si_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_Si_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -4016,7 +4016,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_Si_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_Si as pyton name*/
+/*Using sf_Si as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_Si_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -4030,7 +4030,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_Si", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_Ci_e as pyton name*/
+/*Using sf_Ci_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_Ci_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -4044,7 +4044,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_Ci_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_Ci as pyton name*/
+/*Using sf_Ci as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_Ci_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -4058,7 +4058,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_Ci", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_atanint_e as pyton name*/
+/*Using sf_atanint_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_atanint_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -4072,7 +4072,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_atanint_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_atanint as pyton name*/
+/*Using sf_atanint as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_atanint_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -4086,7 +4086,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_atanint", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_fermi_dirac_m1_e as pyton name*/
+/*Using sf_fermi_dirac_m1_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_fermi_dirac_m1_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -4100,7 +4100,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_fermi_dirac_m1_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_fermi_dirac_m1 as pyton name*/
+/*Using sf_fermi_dirac_m1 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_fermi_dirac_m1_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -4114,7 +4114,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_fermi_dirac_m1", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_fermi_dirac_0_e as pyton name*/
+/*Using sf_fermi_dirac_0_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_fermi_dirac_0_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -4128,7 +4128,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_fermi_dirac_0_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_fermi_dirac_0 as pyton name*/
+/*Using sf_fermi_dirac_0 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_fermi_dirac_0_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -4142,7 +4142,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_fermi_dirac_0", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_fermi_dirac_1_e as pyton name*/
+/*Using sf_fermi_dirac_1_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_fermi_dirac_1_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -4156,7 +4156,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_fermi_dirac_1_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_fermi_dirac_1 as pyton name*/
+/*Using sf_fermi_dirac_1 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_fermi_dirac_1_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -4170,7 +4170,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_fermi_dirac_1", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_fermi_dirac_2_e as pyton name*/
+/*Using sf_fermi_dirac_2_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_fermi_dirac_2_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -4184,7 +4184,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_fermi_dirac_2_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_fermi_dirac_2 as pyton name*/
+/*Using sf_fermi_dirac_2 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_fermi_dirac_2_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -4198,7 +4198,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_fermi_dirac_2", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_fermi_dirac_int_e as pyton name*/
+/*Using sf_fermi_dirac_int_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_id_rd_one_data ,
                              sf_fermi_dirac_int_e_data,
                              PyGSL_sf_ufunc_qi_id_rd_one_types,
@@ -4212,7 +4212,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_id_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_fermi_dirac_int_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_fermi_dirac_int as pyton name*/
+/*Using sf_fermi_dirac_int as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_id__one_data ,
                              sf_fermi_dirac_int_data,
                              PyGSL_sf_ufunc_pd_id__one_types,
@@ -4226,7 +4226,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_id__one_data ,
 PyDict_SetItemString(sf_dict, "sf_fermi_dirac_int", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_fermi_dirac_mhalf_e as pyton name*/
+/*Using sf_fermi_dirac_mhalf_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_fermi_dirac_mhalf_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -4240,7 +4240,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_fermi_dirac_mhalf_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_fermi_dirac_mhalf as pyton name*/
+/*Using sf_fermi_dirac_mhalf as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_fermi_dirac_mhalf_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -4254,7 +4254,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_fermi_dirac_mhalf", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_fermi_dirac_half_e as pyton name*/
+/*Using sf_fermi_dirac_half_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_fermi_dirac_half_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -4268,7 +4268,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_fermi_dirac_half_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_fermi_dirac_half as pyton name*/
+/*Using sf_fermi_dirac_half as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_fermi_dirac_half_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -4282,7 +4282,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_fermi_dirac_half", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_fermi_dirac_3half_e as pyton name*/
+/*Using sf_fermi_dirac_3half_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_fermi_dirac_3half_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -4296,7 +4296,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_fermi_dirac_3half_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_fermi_dirac_3half as pyton name*/
+/*Using sf_fermi_dirac_3half as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_fermi_dirac_3half_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -4310,7 +4310,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_fermi_dirac_3half", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_fermi_dirac_inc_0_e as pyton name*/
+/*Using sf_fermi_dirac_inc_0_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
                              sf_fermi_dirac_inc_0_e_data,
                              PyGSL_sf_ufunc_qi_dd_rd_one_types,
@@ -4324,7 +4324,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_fermi_dirac_inc_0_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_fermi_dirac_inc_0 as pyton name*/
+/*Using sf_fermi_dirac_inc_0 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
                              sf_fermi_dirac_inc_0_data,
                              PyGSL_sf_ufunc_pd_dd__one_types,
@@ -4338,7 +4338,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
 PyDict_SetItemString(sf_dict, "sf_fermi_dirac_inc_0", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_lngamma_e as pyton name*/
+/*Using sf_lngamma_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_lngamma_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -4352,7 +4352,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_lngamma_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_lngamma as pyton name*/
+/*Using sf_lngamma as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_lngamma_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -4366,7 +4366,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_lngamma", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_lngamma_sgn_e as pyton name*/
+/*Using sf_lngamma_sgn_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rdd_one_data ,
                              sf_lngamma_sgn_e_data,
                              PyGSL_sf_ufunc_qi_d_rdd_one_types,
@@ -4380,7 +4380,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rdd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_lngamma_sgn_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_gamma_e as pyton name*/
+/*Using sf_gamma_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_gamma_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -4394,7 +4394,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_gamma_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_gamma as pyton name*/
+/*Using sf_gamma as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_gamma_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -4408,7 +4408,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_gamma", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_gammastar_e as pyton name*/
+/*Using sf_gammastar_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_gammastar_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -4422,7 +4422,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_gammastar_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_gammastar as pyton name*/
+/*Using sf_gammastar as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_gammastar_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -4436,7 +4436,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_gammastar", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_gammainv_e as pyton name*/
+/*Using sf_gammainv_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_gammainv_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -4450,7 +4450,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_gammainv_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_gammainv as pyton name*/
+/*Using sf_gammainv as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_gammainv_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -4464,7 +4464,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_gammainv", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_taylorcoeff_e as pyton name*/
+/*Using sf_taylorcoeff_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_id_rd_one_data ,
                              sf_taylorcoeff_e_data,
                              PyGSL_sf_ufunc_qi_id_rd_one_types,
@@ -4478,7 +4478,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_id_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_taylorcoeff_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_taylorcoeff as pyton name*/
+/*Using sf_taylorcoeff as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_id__one_data ,
                              sf_taylorcoeff_data,
                              PyGSL_sf_ufunc_pd_id__one_types,
@@ -4492,7 +4492,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_id__one_data ,
 PyDict_SetItemString(sf_dict, "sf_taylorcoeff", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_fact_e as pyton name*/
+/*Using sf_fact_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_ui_rd_one_data ,
                              sf_fact_e_data,
                              PyGSL_sf_ufunc_qi_ui_rd_one_types,
@@ -4506,7 +4506,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_ui_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_fact_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_fact as pyton name*/
+/*Using sf_fact as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_ui__one_data ,
                              sf_fact_data,
                              PyGSL_sf_ufunc_pd_ui__one_types,
@@ -4520,7 +4520,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_ui__one_data ,
 PyDict_SetItemString(sf_dict, "sf_fact", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_doublefact_e as pyton name*/
+/*Using sf_doublefact_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_ui_rd_one_data ,
                              sf_doublefact_e_data,
                              PyGSL_sf_ufunc_qi_ui_rd_one_types,
@@ -4534,7 +4534,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_ui_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_doublefact_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_doublefact as pyton name*/
+/*Using sf_doublefact as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_ui__one_data ,
                              sf_doublefact_data,
                              PyGSL_sf_ufunc_pd_ui__one_types,
@@ -4548,7 +4548,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_ui__one_data ,
 PyDict_SetItemString(sf_dict, "sf_doublefact", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_lnfact_e as pyton name*/
+/*Using sf_lnfact_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_ui_rd_one_data ,
                              sf_lnfact_e_data,
                              PyGSL_sf_ufunc_qi_ui_rd_one_types,
@@ -4562,7 +4562,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_ui_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_lnfact_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_lnfact as pyton name*/
+/*Using sf_lnfact as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_ui__one_data ,
                              sf_lnfact_data,
                              PyGSL_sf_ufunc_pd_ui__one_types,
@@ -4576,7 +4576,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_ui__one_data ,
 PyDict_SetItemString(sf_dict, "sf_lnfact", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_lndoublefact_e as pyton name*/
+/*Using sf_lndoublefact_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_ui_rd_one_data ,
                              sf_lndoublefact_e_data,
                              PyGSL_sf_ufunc_qi_ui_rd_one_types,
@@ -4590,7 +4590,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_ui_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_lndoublefact_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_lndoublefact as pyton name*/
+/*Using sf_lndoublefact as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_ui__one_data ,
                              sf_lndoublefact_data,
                              PyGSL_sf_ufunc_pd_ui__one_types,
@@ -4604,7 +4604,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_ui__one_data ,
 PyDict_SetItemString(sf_dict, "sf_lndoublefact", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_lnchoose_e as pyton name*/
+/*Using sf_lnchoose_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_uiui_rd_one_data ,
                              sf_lnchoose_e_data,
                              PyGSL_sf_ufunc_qi_uiui_rd_one_types,
@@ -4618,7 +4618,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_uiui_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_lnchoose_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_lnchoose as pyton name*/
+/*Using sf_lnchoose as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_uiui__one_data ,
                              sf_lnchoose_data,
                              PyGSL_sf_ufunc_pd_uiui__one_types,
@@ -4632,7 +4632,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_uiui__one_data ,
 PyDict_SetItemString(sf_dict, "sf_lnchoose", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_choose_e as pyton name*/
+/*Using sf_choose_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_uiui_rd_one_data ,
                              sf_choose_e_data,
                              PyGSL_sf_ufunc_qi_uiui_rd_one_types,
@@ -4646,7 +4646,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_uiui_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_choose_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_choose as pyton name*/
+/*Using sf_choose as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_uiui__one_data ,
                              sf_choose_data,
                              PyGSL_sf_ufunc_pd_uiui__one_types,
@@ -4660,7 +4660,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_uiui__one_data ,
 PyDict_SetItemString(sf_dict, "sf_choose", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_lnpoch_e as pyton name*/
+/*Using sf_lnpoch_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
                              sf_lnpoch_e_data,
                              PyGSL_sf_ufunc_qi_dd_rd_one_types,
@@ -4674,7 +4674,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_lnpoch_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_lnpoch as pyton name*/
+/*Using sf_lnpoch as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
                              sf_lnpoch_data,
                              PyGSL_sf_ufunc_pd_dd__one_types,
@@ -4688,7 +4688,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
 PyDict_SetItemString(sf_dict, "sf_lnpoch", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_lnpoch_sgn_e as pyton name*/
+/*Using sf_lnpoch_sgn_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rdd_one_data ,
                              sf_lnpoch_sgn_e_data,
                              PyGSL_sf_ufunc_qi_dd_rdd_one_types,
@@ -4702,7 +4702,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rdd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_lnpoch_sgn_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_poch_e as pyton name*/
+/*Using sf_poch_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
                              sf_poch_e_data,
                              PyGSL_sf_ufunc_qi_dd_rd_one_types,
@@ -4716,7 +4716,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_poch_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_poch as pyton name*/
+/*Using sf_poch as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
                              sf_poch_data,
                              PyGSL_sf_ufunc_pd_dd__one_types,
@@ -4730,7 +4730,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
 PyDict_SetItemString(sf_dict, "sf_poch", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_pochrel_e as pyton name*/
+/*Using sf_pochrel_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
                              sf_pochrel_e_data,
                              PyGSL_sf_ufunc_qi_dd_rd_one_types,
@@ -4744,7 +4744,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_pochrel_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_pochrel as pyton name*/
+/*Using sf_pochrel as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
                              sf_pochrel_data,
                              PyGSL_sf_ufunc_pd_dd__one_types,
@@ -4758,7 +4758,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
 PyDict_SetItemString(sf_dict, "sf_pochrel", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_gamma_inc_Q_e as pyton name*/
+/*Using sf_gamma_inc_Q_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
                              sf_gamma_inc_Q_e_data,
                              PyGSL_sf_ufunc_qi_dd_rd_one_types,
@@ -4772,7 +4772,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_gamma_inc_Q_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_gamma_inc_Q as pyton name*/
+/*Using sf_gamma_inc_Q as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
                              sf_gamma_inc_Q_data,
                              PyGSL_sf_ufunc_pd_dd__one_types,
@@ -4786,7 +4786,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
 PyDict_SetItemString(sf_dict, "sf_gamma_inc_Q", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_gamma_inc_P_e as pyton name*/
+/*Using sf_gamma_inc_P_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
                              sf_gamma_inc_P_e_data,
                              PyGSL_sf_ufunc_qi_dd_rd_one_types,
@@ -4800,7 +4800,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_gamma_inc_P_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_gamma_inc_P as pyton name*/
+/*Using sf_gamma_inc_P as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
                              sf_gamma_inc_P_data,
                              PyGSL_sf_ufunc_pd_dd__one_types,
@@ -4814,7 +4814,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
 PyDict_SetItemString(sf_dict, "sf_gamma_inc_P", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_gamma_inc_e as pyton name*/
+/*Using sf_gamma_inc_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
                              sf_gamma_inc_e_data,
                              PyGSL_sf_ufunc_qi_dd_rd_one_types,
@@ -4828,7 +4828,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_gamma_inc_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_gamma_inc as pyton name*/
+/*Using sf_gamma_inc as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
                              sf_gamma_inc_data,
                              PyGSL_sf_ufunc_pd_dd__one_types,
@@ -4842,7 +4842,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
 PyDict_SetItemString(sf_dict, "sf_gamma_inc", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_lnbeta_e as pyton name*/
+/*Using sf_lnbeta_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
                              sf_lnbeta_e_data,
                              PyGSL_sf_ufunc_qi_dd_rd_one_types,
@@ -4856,7 +4856,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_lnbeta_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_lnbeta as pyton name*/
+/*Using sf_lnbeta as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
                              sf_lnbeta_data,
                              PyGSL_sf_ufunc_pd_dd__one_types,
@@ -4870,7 +4870,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
 PyDict_SetItemString(sf_dict, "sf_lnbeta", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_lnbeta_sgn_e as pyton name*/
+/*Using sf_lnbeta_sgn_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rdd_one_data ,
                              sf_lnbeta_sgn_e_data,
                              PyGSL_sf_ufunc_qi_dd_rdd_one_types,
@@ -4884,7 +4884,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rdd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_lnbeta_sgn_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_beta_e as pyton name*/
+/*Using sf_beta_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
                              sf_beta_e_data,
                              PyGSL_sf_ufunc_qi_dd_rd_one_types,
@@ -4898,7 +4898,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_beta_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_beta as pyton name*/
+/*Using sf_beta as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
                              sf_beta_data,
                              PyGSL_sf_ufunc_pd_dd__one_types,
@@ -4912,7 +4912,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
 PyDict_SetItemString(sf_dict, "sf_beta", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_beta_inc_e as pyton name*/
+/*Using sf_beta_inc_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_ddd_rd_one_data ,
                              sf_beta_inc_e_data,
                              PyGSL_sf_ufunc_qi_ddd_rd_one_types,
@@ -4926,7 +4926,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_ddd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_beta_inc_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_beta_inc as pyton name*/
+/*Using sf_beta_inc as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_ddd__one_data ,
                              sf_beta_inc_data,
                              PyGSL_sf_ufunc_pd_ddd__one_types,
@@ -4940,7 +4940,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_ddd__one_data ,
 PyDict_SetItemString(sf_dict, "sf_beta_inc", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_gegenpoly_1_e as pyton name*/
+/*Using sf_gegenpoly_1_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
                              sf_gegenpoly_1_e_data,
                              PyGSL_sf_ufunc_qi_dd_rd_one_types,
@@ -4954,7 +4954,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_gegenpoly_1_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_gegenpoly_2_e as pyton name*/
+/*Using sf_gegenpoly_2_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
                              sf_gegenpoly_2_e_data,
                              PyGSL_sf_ufunc_qi_dd_rd_one_types,
@@ -4968,7 +4968,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_gegenpoly_2_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_gegenpoly_3_e as pyton name*/
+/*Using sf_gegenpoly_3_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
                              sf_gegenpoly_3_e_data,
                              PyGSL_sf_ufunc_qi_dd_rd_one_types,
@@ -4982,7 +4982,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_gegenpoly_3_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_gegenpoly_1 as pyton name*/
+/*Using sf_gegenpoly_1 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
                              sf_gegenpoly_1_data,
                              PyGSL_sf_ufunc_pd_dd__one_types,
@@ -4996,7 +4996,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
 PyDict_SetItemString(sf_dict, "sf_gegenpoly_1", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_gegenpoly_2 as pyton name*/
+/*Using sf_gegenpoly_2 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
                              sf_gegenpoly_2_data,
                              PyGSL_sf_ufunc_pd_dd__one_types,
@@ -5010,7 +5010,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
 PyDict_SetItemString(sf_dict, "sf_gegenpoly_2", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_gegenpoly_3 as pyton name*/
+/*Using sf_gegenpoly_3 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
                              sf_gegenpoly_3_data,
                              PyGSL_sf_ufunc_pd_dd__one_types,
@@ -5024,7 +5024,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
 PyDict_SetItemString(sf_dict, "sf_gegenpoly_3", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_gegenpoly_n_e as pyton name*/
+/*Using sf_gegenpoly_n_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_idd_rd_one_data ,
                              sf_gegenpoly_n_e_data,
                              PyGSL_sf_ufunc_qi_idd_rd_one_types,
@@ -5038,7 +5038,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_idd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_gegenpoly_n_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_gegenpoly_n as pyton name*/
+/*Using sf_gegenpoly_n as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_idd__one_data ,
                              sf_gegenpoly_n_data,
                              PyGSL_sf_ufunc_pd_idd__one_types,
@@ -5052,7 +5052,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_idd__one_data ,
 PyDict_SetItemString(sf_dict, "sf_gegenpoly_n", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_hyperg_0F1_e as pyton name*/
+/*Using sf_hyperg_0F1_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
                              sf_hyperg_0F1_e_data,
                              PyGSL_sf_ufunc_qi_dd_rd_one_types,
@@ -5066,7 +5066,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_hyperg_0F1_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_hyperg_0F1 as pyton name*/
+/*Using sf_hyperg_0F1 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
                              sf_hyperg_0F1_data,
                              PyGSL_sf_ufunc_pd_dd__one_types,
@@ -5080,7 +5080,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
 PyDict_SetItemString(sf_dict, "sf_hyperg_0F1", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_hyperg_1F1_int_e as pyton name*/
+/*Using sf_hyperg_1F1_int_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_iid_rd_one_data ,
                              sf_hyperg_1F1_int_e_data,
                              PyGSL_sf_ufunc_qi_iid_rd_one_types,
@@ -5094,7 +5094,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_iid_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_hyperg_1F1_int_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_hyperg_1F1_int as pyton name*/
+/*Using sf_hyperg_1F1_int as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_iid__one_data ,
                              sf_hyperg_1F1_int_data,
                              PyGSL_sf_ufunc_pd_iid__one_types,
@@ -5108,7 +5108,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_iid__one_data ,
 PyDict_SetItemString(sf_dict, "sf_hyperg_1F1_int", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_hyperg_1F1_e as pyton name*/
+/*Using sf_hyperg_1F1_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_ddd_rd_one_data ,
                              sf_hyperg_1F1_e_data,
                              PyGSL_sf_ufunc_qi_ddd_rd_one_types,
@@ -5122,7 +5122,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_ddd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_hyperg_1F1_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_hyperg_1F1 as pyton name*/
+/*Using sf_hyperg_1F1 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_ddd__one_data ,
                              sf_hyperg_1F1_data,
                              PyGSL_sf_ufunc_pd_ddd__one_types,
@@ -5136,7 +5136,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_ddd__one_data ,
 PyDict_SetItemString(sf_dict, "sf_hyperg_1F1", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_hyperg_U_int_e as pyton name*/
+/*Using sf_hyperg_U_int_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_iid_rd_one_data ,
                              sf_hyperg_U_int_e_data,
                              PyGSL_sf_ufunc_qi_iid_rd_one_types,
@@ -5150,7 +5150,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_iid_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_hyperg_U_int_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_hyperg_U_int as pyton name*/
+/*Using sf_hyperg_U_int as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_iid__one_data ,
                              sf_hyperg_U_int_data,
                              PyGSL_sf_ufunc_pd_iid__one_types,
@@ -5164,7 +5164,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_iid__one_data ,
 PyDict_SetItemString(sf_dict, "sf_hyperg_U_int", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_hyperg_U_int_e10_e as pyton name*/
+/*Using sf_hyperg_U_int_e10_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_iid_erd_one_data ,
                              sf_hyperg_U_int_e10_e_data,
                              PyGSL_sf_ufunc_qi_iid_erd_one_types,
@@ -5178,7 +5178,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_iid_erd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_hyperg_U_int_e10_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_hyperg_U_e as pyton name*/
+/*Using sf_hyperg_U_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_ddd_rd_one_data ,
                              sf_hyperg_U_e_data,
                              PyGSL_sf_ufunc_qi_ddd_rd_one_types,
@@ -5192,7 +5192,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_ddd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_hyperg_U_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_hyperg_U as pyton name*/
+/*Using sf_hyperg_U as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_ddd__one_data ,
                              sf_hyperg_U_data,
                              PyGSL_sf_ufunc_pd_ddd__one_types,
@@ -5206,7 +5206,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_ddd__one_data ,
 PyDict_SetItemString(sf_dict, "sf_hyperg_U", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_hyperg_U_e10_e as pyton name*/
+/*Using sf_hyperg_U_e10_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_ddd_erd_one_data ,
                              sf_hyperg_U_e10_e_data,
                              PyGSL_sf_ufunc_qi_ddd_erd_one_types,
@@ -5220,7 +5220,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_ddd_erd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_hyperg_U_e10_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_hyperg_2F1_e as pyton name*/
+/*Using sf_hyperg_2F1_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dddd_rd_one_data ,
                              sf_hyperg_2F1_e_data,
                              PyGSL_sf_ufunc_qi_dddd_rd_one_types,
@@ -5234,7 +5234,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dddd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_hyperg_2F1_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_hyperg_2F1 as pyton name*/
+/*Using sf_hyperg_2F1 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dddd__one_data ,
                              sf_hyperg_2F1_data,
                              PyGSL_sf_ufunc_pd_dddd__one_types,
@@ -5248,7 +5248,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dddd__one_data ,
 PyDict_SetItemString(sf_dict, "sf_hyperg_2F1", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_hyperg_2F1_conj_e as pyton name*/
+/*Using sf_hyperg_2F1_conj_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dddd_rd_one_data ,
                              sf_hyperg_2F1_conj_e_data,
                              PyGSL_sf_ufunc_qi_dddd_rd_one_types,
@@ -5262,7 +5262,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dddd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_hyperg_2F1_conj_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_hyperg_2F1_conj as pyton name*/
+/*Using sf_hyperg_2F1_conj as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dddd__one_data ,
                              sf_hyperg_2F1_conj_data,
                              PyGSL_sf_ufunc_pd_dddd__one_types,
@@ -5276,7 +5276,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dddd__one_data ,
 PyDict_SetItemString(sf_dict, "sf_hyperg_2F1_conj", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_hyperg_2F1_renorm_e as pyton name*/
+/*Using sf_hyperg_2F1_renorm_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dddd_rd_one_data ,
                              sf_hyperg_2F1_renorm_e_data,
                              PyGSL_sf_ufunc_qi_dddd_rd_one_types,
@@ -5290,7 +5290,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dddd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_hyperg_2F1_renorm_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_hyperg_2F1_renorm as pyton name*/
+/*Using sf_hyperg_2F1_renorm as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dddd__one_data ,
                              sf_hyperg_2F1_renorm_data,
                              PyGSL_sf_ufunc_pd_dddd__one_types,
@@ -5304,7 +5304,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dddd__one_data ,
 PyDict_SetItemString(sf_dict, "sf_hyperg_2F1_renorm", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_hyperg_2F1_conj_renorm_e as pyton name*/
+/*Using sf_hyperg_2F1_conj_renorm_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dddd_rd_one_data ,
                              sf_hyperg_2F1_conj_renorm_e_data,
                              PyGSL_sf_ufunc_qi_dddd_rd_one_types,
@@ -5318,7 +5318,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dddd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_hyperg_2F1_conj_renorm_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_hyperg_2F1_conj_renorm as pyton name*/
+/*Using sf_hyperg_2F1_conj_renorm as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dddd__one_data ,
                              sf_hyperg_2F1_conj_renorm_data,
                              PyGSL_sf_ufunc_pd_dddd__one_types,
@@ -5332,7 +5332,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dddd__one_data ,
 PyDict_SetItemString(sf_dict, "sf_hyperg_2F1_conj_renorm", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_hyperg_2F0_e as pyton name*/
+/*Using sf_hyperg_2F0_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_ddd_rd_one_data ,
                              sf_hyperg_2F0_e_data,
                              PyGSL_sf_ufunc_qi_ddd_rd_one_types,
@@ -5346,7 +5346,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_ddd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_hyperg_2F0_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_hyperg_2F0 as pyton name*/
+/*Using sf_hyperg_2F0 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_ddd__one_data ,
                              sf_hyperg_2F0_data,
                              PyGSL_sf_ufunc_pd_ddd__one_types,
@@ -5360,7 +5360,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_ddd__one_data ,
 PyDict_SetItemString(sf_dict, "sf_hyperg_2F0", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_laguerre_1_e as pyton name*/
+/*Using sf_laguerre_1_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
                              sf_laguerre_1_e_data,
                              PyGSL_sf_ufunc_qi_dd_rd_one_types,
@@ -5374,7 +5374,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_laguerre_1_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_laguerre_2_e as pyton name*/
+/*Using sf_laguerre_2_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
                              sf_laguerre_2_e_data,
                              PyGSL_sf_ufunc_qi_dd_rd_one_types,
@@ -5388,7 +5388,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_laguerre_2_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_laguerre_3_e as pyton name*/
+/*Using sf_laguerre_3_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
                              sf_laguerre_3_e_data,
                              PyGSL_sf_ufunc_qi_dd_rd_one_types,
@@ -5402,7 +5402,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_laguerre_3_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_laguerre_1 as pyton name*/
+/*Using sf_laguerre_1 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
                              sf_laguerre_1_data,
                              PyGSL_sf_ufunc_pd_dd__one_types,
@@ -5416,7 +5416,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
 PyDict_SetItemString(sf_dict, "sf_laguerre_1", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_laguerre_2 as pyton name*/
+/*Using sf_laguerre_2 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
                              sf_laguerre_2_data,
                              PyGSL_sf_ufunc_pd_dd__one_types,
@@ -5430,7 +5430,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
 PyDict_SetItemString(sf_dict, "sf_laguerre_2", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_laguerre_3 as pyton name*/
+/*Using sf_laguerre_3 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
                              sf_laguerre_3_data,
                              PyGSL_sf_ufunc_pd_dd__one_types,
@@ -5444,7 +5444,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
 PyDict_SetItemString(sf_dict, "sf_laguerre_3", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_laguerre_n_e as pyton name*/
+/*Using sf_laguerre_n_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_idd_rd_one_data ,
                              sf_laguerre_n_e_data,
                              PyGSL_sf_ufunc_qi_idd_rd_one_types,
@@ -5458,7 +5458,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_idd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_laguerre_n_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_laguerre_n as pyton name*/
+/*Using sf_laguerre_n as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_idd__one_data ,
                              sf_laguerre_n_data,
                              PyGSL_sf_ufunc_pd_idd__one_types,
@@ -5472,7 +5472,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_idd__one_data ,
 PyDict_SetItemString(sf_dict, "sf_laguerre_n", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_lambert_W0_e as pyton name*/
+/*Using sf_lambert_W0_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_lambert_W0_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -5486,7 +5486,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_lambert_W0_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_lambert_W0 as pyton name*/
+/*Using sf_lambert_W0 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_lambert_W0_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -5500,7 +5500,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_lambert_W0", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_lambert_Wm1_e as pyton name*/
+/*Using sf_lambert_Wm1_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_lambert_Wm1_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -5514,7 +5514,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_lambert_Wm1_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_lambert_Wm1 as pyton name*/
+/*Using sf_lambert_Wm1 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_lambert_Wm1_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -5528,7 +5528,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_lambert_Wm1", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_legendre_Pl_e as pyton name*/
+/*Using sf_legendre_Pl_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_id_rd_one_data ,
                              sf_legendre_Pl_e_data,
                              PyGSL_sf_ufunc_qi_id_rd_one_types,
@@ -5542,7 +5542,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_id_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_legendre_Pl_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_legendre_Pl as pyton name*/
+/*Using sf_legendre_Pl as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_id__one_data ,
                              sf_legendre_Pl_data,
                              PyGSL_sf_ufunc_pd_id__one_types,
@@ -5556,7 +5556,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_id__one_data ,
 PyDict_SetItemString(sf_dict, "sf_legendre_Pl", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_legendre_P1_e as pyton name*/
+/*Using sf_legendre_P1_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_legendre_P1_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -5570,7 +5570,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_legendre_P1_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_legendre_P2_e as pyton name*/
+/*Using sf_legendre_P2_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_legendre_P2_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -5584,7 +5584,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_legendre_P2_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_legendre_P3_e as pyton name*/
+/*Using sf_legendre_P3_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_legendre_P3_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -5598,7 +5598,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_legendre_P3_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_legendre_P1 as pyton name*/
+/*Using sf_legendre_P1 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_legendre_P1_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -5612,7 +5612,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_legendre_P1", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_legendre_P2 as pyton name*/
+/*Using sf_legendre_P2 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_legendre_P2_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -5626,7 +5626,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_legendre_P2", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_legendre_P3 as pyton name*/
+/*Using sf_legendre_P3 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_legendre_P3_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -5640,7 +5640,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_legendre_P3", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_legendre_Q0_e as pyton name*/
+/*Using sf_legendre_Q0_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_legendre_Q0_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -5654,7 +5654,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_legendre_Q0_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_legendre_Q0 as pyton name*/
+/*Using sf_legendre_Q0 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_legendre_Q0_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -5668,7 +5668,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_legendre_Q0", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_legendre_Q1_e as pyton name*/
+/*Using sf_legendre_Q1_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_legendre_Q1_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -5682,7 +5682,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_legendre_Q1_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_legendre_Q1 as pyton name*/
+/*Using sf_legendre_Q1 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_legendre_Q1_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -5696,7 +5696,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_legendre_Q1", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_legendre_Ql_e as pyton name*/
+/*Using sf_legendre_Ql_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_id_rd_one_data ,
                              sf_legendre_Ql_e_data,
                              PyGSL_sf_ufunc_qi_id_rd_one_types,
@@ -5710,7 +5710,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_id_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_legendre_Ql_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_legendre_Ql as pyton name*/
+/*Using sf_legendre_Ql as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_id__one_data ,
                              sf_legendre_Ql_data,
                              PyGSL_sf_ufunc_pd_id__one_types,
@@ -5724,7 +5724,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_id__one_data ,
 PyDict_SetItemString(sf_dict, "sf_legendre_Ql", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_legendre_Plm_e as pyton name*/
+/*Using sf_legendre_Plm_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_iid_rd_one_data ,
                              sf_legendre_Plm_e_data,
                              PyGSL_sf_ufunc_qi_iid_rd_one_types,
@@ -5738,7 +5738,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_iid_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_legendre_Plm_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_legendre_Plm as pyton name*/
+/*Using sf_legendre_Plm as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_iid__one_data ,
                              sf_legendre_Plm_data,
                              PyGSL_sf_ufunc_pd_iid__one_types,
@@ -5752,7 +5752,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_iid__one_data ,
 PyDict_SetItemString(sf_dict, "sf_legendre_Plm", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_legendre_sphPlm_e as pyton name*/
+/*Using sf_legendre_sphPlm_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_iid_rd_one_data ,
                              sf_legendre_sphPlm_e_data,
                              PyGSL_sf_ufunc_qi_iid_rd_one_types,
@@ -5766,7 +5766,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_iid_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_legendre_sphPlm_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_legendre_sphPlm as pyton name*/
+/*Using sf_legendre_sphPlm as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_iid__one_data ,
                              sf_legendre_sphPlm_data,
                              PyGSL_sf_ufunc_pd_iid__one_types,
@@ -5780,7 +5780,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_iid__one_data ,
 PyDict_SetItemString(sf_dict, "sf_legendre_sphPlm", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_conicalP_half_e as pyton name*/
+/*Using sf_conicalP_half_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
                              sf_conicalP_half_e_data,
                              PyGSL_sf_ufunc_qi_dd_rd_one_types,
@@ -5794,7 +5794,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_conicalP_half_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_conicalP_half as pyton name*/
+/*Using sf_conicalP_half as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
                              sf_conicalP_half_data,
                              PyGSL_sf_ufunc_pd_dd__one_types,
@@ -5808,7 +5808,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
 PyDict_SetItemString(sf_dict, "sf_conicalP_half", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_conicalP_mhalf_e as pyton name*/
+/*Using sf_conicalP_mhalf_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
                              sf_conicalP_mhalf_e_data,
                              PyGSL_sf_ufunc_qi_dd_rd_one_types,
@@ -5822,7 +5822,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_conicalP_mhalf_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_conicalP_mhalf as pyton name*/
+/*Using sf_conicalP_mhalf as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
                              sf_conicalP_mhalf_data,
                              PyGSL_sf_ufunc_pd_dd__one_types,
@@ -5836,7 +5836,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
 PyDict_SetItemString(sf_dict, "sf_conicalP_mhalf", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_conicalP_0_e as pyton name*/
+/*Using sf_conicalP_0_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
                              sf_conicalP_0_e_data,
                              PyGSL_sf_ufunc_qi_dd_rd_one_types,
@@ -5850,7 +5850,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_conicalP_0_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_conicalP_0 as pyton name*/
+/*Using sf_conicalP_0 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
                              sf_conicalP_0_data,
                              PyGSL_sf_ufunc_pd_dd__one_types,
@@ -5864,7 +5864,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
 PyDict_SetItemString(sf_dict, "sf_conicalP_0", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_conicalP_1_e as pyton name*/
+/*Using sf_conicalP_1_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
                              sf_conicalP_1_e_data,
                              PyGSL_sf_ufunc_qi_dd_rd_one_types,
@@ -5878,7 +5878,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_conicalP_1_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_conicalP_1 as pyton name*/
+/*Using sf_conicalP_1 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
                              sf_conicalP_1_data,
                              PyGSL_sf_ufunc_pd_dd__one_types,
@@ -5892,7 +5892,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
 PyDict_SetItemString(sf_dict, "sf_conicalP_1", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_conicalP_sph_reg_e as pyton name*/
+/*Using sf_conicalP_sph_reg_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_idd_rd_one_data ,
                              sf_conicalP_sph_reg_e_data,
                              PyGSL_sf_ufunc_qi_idd_rd_one_types,
@@ -5906,7 +5906,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_idd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_conicalP_sph_reg_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_conicalP_sph_reg as pyton name*/
+/*Using sf_conicalP_sph_reg as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_idd__one_data ,
                              sf_conicalP_sph_reg_data,
                              PyGSL_sf_ufunc_pd_idd__one_types,
@@ -5920,7 +5920,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_idd__one_data ,
 PyDict_SetItemString(sf_dict, "sf_conicalP_sph_reg", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_conicalP_cyl_reg_e as pyton name*/
+/*Using sf_conicalP_cyl_reg_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_idd_rd_one_data ,
                              sf_conicalP_cyl_reg_e_data,
                              PyGSL_sf_ufunc_qi_idd_rd_one_types,
@@ -5934,7 +5934,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_idd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_conicalP_cyl_reg_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_conicalP_cyl_reg as pyton name*/
+/*Using sf_conicalP_cyl_reg as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_idd__one_data ,
                              sf_conicalP_cyl_reg_data,
                              PyGSL_sf_ufunc_pd_idd__one_types,
@@ -5948,7 +5948,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_idd__one_data ,
 PyDict_SetItemString(sf_dict, "sf_conicalP_cyl_reg", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_legendre_H3d_0_e as pyton name*/
+/*Using sf_legendre_H3d_0_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
                              sf_legendre_H3d_0_e_data,
                              PyGSL_sf_ufunc_qi_dd_rd_one_types,
@@ -5962,7 +5962,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_legendre_H3d_0_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_legendre_H3d_0 as pyton name*/
+/*Using sf_legendre_H3d_0 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
                              sf_legendre_H3d_0_data,
                              PyGSL_sf_ufunc_pd_dd__one_types,
@@ -5976,7 +5976,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
 PyDict_SetItemString(sf_dict, "sf_legendre_H3d_0", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_legendre_H3d_1_e as pyton name*/
+/*Using sf_legendre_H3d_1_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
                              sf_legendre_H3d_1_e_data,
                              PyGSL_sf_ufunc_qi_dd_rd_one_types,
@@ -5990,7 +5990,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_legendre_H3d_1_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_legendre_H3d_1 as pyton name*/
+/*Using sf_legendre_H3d_1 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
                              sf_legendre_H3d_1_data,
                              PyGSL_sf_ufunc_pd_dd__one_types,
@@ -6004,7 +6004,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
 PyDict_SetItemString(sf_dict, "sf_legendre_H3d_1", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_legendre_H3d_e as pyton name*/
+/*Using sf_legendre_H3d_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_idd_rd_one_data ,
                              sf_legendre_H3d_e_data,
                              PyGSL_sf_ufunc_qi_idd_rd_one_types,
@@ -6018,7 +6018,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_idd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_legendre_H3d_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_legendre_H3d as pyton name*/
+/*Using sf_legendre_H3d as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_idd__one_data ,
                              sf_legendre_H3d_data,
                              PyGSL_sf_ufunc_pd_idd__one_types,
@@ -6032,7 +6032,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_idd__one_data ,
 PyDict_SetItemString(sf_dict, "sf_legendre_H3d", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_log_e as pyton name*/
+/*Using sf_log_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_log_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -6046,7 +6046,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_log_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_log as pyton name*/
+/*Using sf_log as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_log_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -6060,7 +6060,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_log", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_log_abs_e as pyton name*/
+/*Using sf_log_abs_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_log_abs_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -6074,7 +6074,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_log_abs_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_log_abs as pyton name*/
+/*Using sf_log_abs as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_log_abs_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -6088,7 +6088,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_log_abs", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_log_1plusx_e as pyton name*/
+/*Using sf_log_1plusx_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_log_1plusx_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -6102,7 +6102,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_log_1plusx_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_log_1plusx as pyton name*/
+/*Using sf_log_1plusx as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_log_1plusx_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -6116,7 +6116,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_log_1plusx", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_log_1plusx_mx_e as pyton name*/
+/*Using sf_log_1plusx_mx_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_log_1plusx_mx_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -6130,7 +6130,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_log_1plusx_mx_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_log_1plusx_mx as pyton name*/
+/*Using sf_log_1plusx_mx as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_log_1plusx_mx_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -6144,7 +6144,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_log_1plusx_mx", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_mathieu_a as pyton name*/
+/*Using sf_mathieu_a as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pi_id_rd_one_data ,
                              sf_mathieu_a_data,
                              PyGSL_sf_ufunc_pi_id_rd_one_types,
@@ -6158,7 +6158,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pi_id_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_mathieu_a", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_mathieu_b as pyton name*/
+/*Using sf_mathieu_b as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pi_id_rd_one_data ,
                              sf_mathieu_b_data,
                              PyGSL_sf_ufunc_pi_id_rd_one_types,
@@ -6172,7 +6172,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pi_id_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_mathieu_b", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_mathieu_a_coeff as pyton name*/
+/*Using sf_mathieu_a_coeff as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pi_iddd__one_data ,
                              sf_mathieu_a_coeff_data,
                              PyGSL_sf_ufunc_pi_iddd__one_types,
@@ -6186,7 +6186,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pi_iddd__one_data ,
 PyDict_SetItemString(sf_dict, "sf_mathieu_a_coeff", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_mathieu_b_coeff as pyton name*/
+/*Using sf_mathieu_b_coeff as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pi_iddd__one_data ,
                              sf_mathieu_b_coeff_data,
                              PyGSL_sf_ufunc_pi_iddd__one_types,
@@ -6200,7 +6200,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pi_iddd__one_data ,
 PyDict_SetItemString(sf_dict, "sf_mathieu_b_coeff", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_mathieu_se as pyton name*/
+/*Using sf_mathieu_se as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pi_idd_rd_one_data ,
                              sf_mathieu_se_data,
                              PyGSL_sf_ufunc_pi_idd_rd_one_types,
@@ -6214,7 +6214,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pi_idd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_mathieu_se", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_mathieu_Mc as pyton name*/
+/*Using sf_mathieu_Mc as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pi_iidd_rd_one_data ,
                              sf_mathieu_Mc_data,
                              PyGSL_sf_ufunc_pi_iidd_rd_one_types,
@@ -6228,7 +6228,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pi_iidd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_mathieu_Mc", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_mathieu_Ms as pyton name*/
+/*Using sf_mathieu_Ms as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pi_iidd_rd_one_data ,
                              sf_mathieu_Ms_data,
                              PyGSL_sf_ufunc_pi_iidd_rd_one_types,
@@ -6242,7 +6242,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pi_iidd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_mathieu_Ms", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_pow_int_e as pyton name*/
+/*Using sf_pow_int_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_di_rd_one_data ,
                              sf_pow_int_e_data,
                              PyGSL_sf_ufunc_qi_di_rd_one_types,
@@ -6256,7 +6256,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_di_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_pow_int_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_pow_int as pyton name*/
+/*Using sf_pow_int as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_di__one_data ,
                              sf_pow_int_data,
                              PyGSL_sf_ufunc_pd_di__one_types,
@@ -6270,7 +6270,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_di__one_data ,
 PyDict_SetItemString(sf_dict, "sf_pow_int", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_psi_int_e as pyton name*/
+/*Using sf_psi_int_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_i_rd_one_data ,
                              sf_psi_int_e_data,
                              PyGSL_sf_ufunc_qi_i_rd_one_types,
@@ -6284,7 +6284,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_i_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_psi_int_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_psi_int as pyton name*/
+/*Using sf_psi_int as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_i__one_data ,
                              sf_psi_int_data,
                              PyGSL_sf_ufunc_pd_i__one_types,
@@ -6298,7 +6298,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_i__one_data ,
 PyDict_SetItemString(sf_dict, "sf_psi_int", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_psi_e as pyton name*/
+/*Using sf_psi_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_psi_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -6312,7 +6312,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_psi_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_psi as pyton name*/
+/*Using sf_psi as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_psi_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -6326,7 +6326,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_psi", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_psi_1piy_e as pyton name*/
+/*Using sf_psi_1piy_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_psi_1piy_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -6340,7 +6340,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_psi_1piy_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_psi_1piy as pyton name*/
+/*Using sf_psi_1piy as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_psi_1piy_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -6354,7 +6354,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_psi_1piy", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_complex_psi_e as pyton name*/
+/*Using sf_complex_psi_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rdrd_one_data ,
                              sf_complex_psi_e_data,
                              PyGSL_sf_ufunc_qi_dd_rdrd_one_types,
@@ -6368,7 +6368,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rdrd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_complex_psi_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_psi_1_int_e as pyton name*/
+/*Using sf_psi_1_int_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_i_rd_one_data ,
                              sf_psi_1_int_e_data,
                              PyGSL_sf_ufunc_qi_i_rd_one_types,
@@ -6382,7 +6382,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_i_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_psi_1_int_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_psi_1_int as pyton name*/
+/*Using sf_psi_1_int as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_i__one_data ,
                              sf_psi_1_int_data,
                              PyGSL_sf_ufunc_pd_i__one_types,
@@ -6396,7 +6396,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_i__one_data ,
 PyDict_SetItemString(sf_dict, "sf_psi_1_int", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_psi_1_e as pyton name*/
+/*Using sf_psi_1_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_psi_1_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -6410,7 +6410,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_psi_1_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_psi_1 as pyton name*/
+/*Using sf_psi_1 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_psi_1_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -6424,7 +6424,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_psi_1", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_psi_n_e as pyton name*/
+/*Using sf_psi_n_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_id_rd_one_data ,
                              sf_psi_n_e_data,
                              PyGSL_sf_ufunc_qi_id_rd_one_types,
@@ -6438,7 +6438,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_id_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_psi_n_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_psi_n as pyton name*/
+/*Using sf_psi_n as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_id__one_data ,
                              sf_psi_n_data,
                              PyGSL_sf_ufunc_pd_id__one_types,
@@ -6452,7 +6452,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_id__one_data ,
 PyDict_SetItemString(sf_dict, "sf_psi_n", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_synchrotron_1_e as pyton name*/
+/*Using sf_synchrotron_1_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_synchrotron_1_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -6466,7 +6466,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_synchrotron_1_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_synchrotron_1 as pyton name*/
+/*Using sf_synchrotron_1 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_synchrotron_1_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -6480,7 +6480,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_synchrotron_1", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_synchrotron_2_e as pyton name*/
+/*Using sf_synchrotron_2_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_synchrotron_2_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -6494,7 +6494,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_synchrotron_2_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_synchrotron_2 as pyton name*/
+/*Using sf_synchrotron_2 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_synchrotron_2_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -6508,7 +6508,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_synchrotron_2", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_transport_2_e as pyton name*/
+/*Using sf_transport_2_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_transport_2_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -6522,7 +6522,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_transport_2_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_transport_2 as pyton name*/
+/*Using sf_transport_2 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_transport_2_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -6536,7 +6536,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_transport_2", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_transport_3_e as pyton name*/
+/*Using sf_transport_3_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_transport_3_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -6550,7 +6550,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_transport_3_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_transport_3 as pyton name*/
+/*Using sf_transport_3 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_transport_3_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -6564,7 +6564,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_transport_3", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_transport_4_e as pyton name*/
+/*Using sf_transport_4_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_transport_4_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -6578,7 +6578,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_transport_4_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_transport_4 as pyton name*/
+/*Using sf_transport_4 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_transport_4_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -6592,7 +6592,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_transport_4", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_transport_5_e as pyton name*/
+/*Using sf_transport_5_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_transport_5_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -6606,7 +6606,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_transport_5_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_transport_5 as pyton name*/
+/*Using sf_transport_5 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_transport_5_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -6620,7 +6620,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_transport_5", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_sin_e as pyton name*/
+/*Using sf_sin_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_sin_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -6634,7 +6634,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_sin_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_sin as pyton name*/
+/*Using sf_sin as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_sin_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -6648,7 +6648,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_sin", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_cos_e as pyton name*/
+/*Using sf_cos_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_cos_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -6662,7 +6662,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_cos_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_cos as pyton name*/
+/*Using sf_cos as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_cos_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -6676,7 +6676,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_cos", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_hypot_e as pyton name*/
+/*Using sf_hypot_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
                              sf_hypot_e_data,
                              PyGSL_sf_ufunc_qi_dd_rd_one_types,
@@ -6690,7 +6690,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_hypot_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_hypot as pyton name*/
+/*Using sf_hypot as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
                              sf_hypot_data,
                              PyGSL_sf_ufunc_pd_dd__one_types,
@@ -6704,7 +6704,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
 PyDict_SetItemString(sf_dict, "sf_hypot", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_sinc_e as pyton name*/
+/*Using sf_sinc_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_sinc_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -6718,7 +6718,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_sinc_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_sinc as pyton name*/
+/*Using sf_sinc as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_sinc_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -6732,7 +6732,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_sinc", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_lnsinh_e as pyton name*/
+/*Using sf_lnsinh_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_lnsinh_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -6746,7 +6746,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_lnsinh_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_lnsinh as pyton name*/
+/*Using sf_lnsinh as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_lnsinh_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -6760,7 +6760,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_lnsinh", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_lncosh_e as pyton name*/
+/*Using sf_lncosh_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_lncosh_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -6774,7 +6774,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_lncosh_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_lncosh as pyton name*/
+/*Using sf_lncosh as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_lncosh_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -6788,7 +6788,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_lncosh", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_sin_err_e as pyton name*/
+/*Using sf_sin_err_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
                              sf_sin_err_e_data,
                              PyGSL_sf_ufunc_qi_dd_rd_one_types,
@@ -6802,7 +6802,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_sin_err_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_cos_err_e as pyton name*/
+/*Using sf_cos_err_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
                              sf_cos_err_e_data,
                              PyGSL_sf_ufunc_qi_dd_rd_one_types,
@@ -6816,7 +6816,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_cos_err_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_angle_restrict_symm as pyton name*/
+/*Using sf_angle_restrict_symm as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_angle_restrict_symm_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -6830,7 +6830,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_angle_restrict_symm", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_angle_restrict_pos as pyton name*/
+/*Using sf_angle_restrict_pos as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_angle_restrict_pos_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -6844,7 +6844,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_angle_restrict_pos", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_angle_restrict_symm_err_e as pyton name*/
+/*Using sf_angle_restrict_symm_err_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_angle_restrict_symm_err_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -6858,7 +6858,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_angle_restrict_symm_err_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_angle_restrict_pos_err_e as pyton name*/
+/*Using sf_angle_restrict_pos_err_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_angle_restrict_pos_err_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -6872,7 +6872,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_angle_restrict_pos_err_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_zeta_int_e as pyton name*/
+/*Using sf_zeta_int_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_i_rd_one_data ,
                              sf_zeta_int_e_data,
                              PyGSL_sf_ufunc_qi_i_rd_one_types,
@@ -6886,7 +6886,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_i_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_zeta_int_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_zeta_int as pyton name*/
+/*Using sf_zeta_int as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_i__one_data ,
                              sf_zeta_int_data,
                              PyGSL_sf_ufunc_pd_i__one_types,
@@ -6900,7 +6900,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_i__one_data ,
 PyDict_SetItemString(sf_dict, "sf_zeta_int", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_zeta_e as pyton name*/
+/*Using sf_zeta_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_zeta_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -6914,7 +6914,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_zeta_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_zeta as pyton name*/
+/*Using sf_zeta as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_zeta_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -6928,7 +6928,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_zeta", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_zetam1_e as pyton name*/
+/*Using sf_zetam1_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_zetam1_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -6942,7 +6942,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_zetam1_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_zetam1 as pyton name*/
+/*Using sf_zetam1 as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_zetam1_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
@@ -6956,7 +6956,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
 PyDict_SetItemString(sf_dict, "sf_zetam1", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_zetam1_int_e as pyton name*/
+/*Using sf_zetam1_int_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_i_rd_one_data ,
                              sf_zetam1_int_e_data,
                              PyGSL_sf_ufunc_qi_i_rd_one_types,
@@ -6970,7 +6970,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_i_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_zetam1_int_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_zetam1_int as pyton name*/
+/*Using sf_zetam1_int as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_i__one_data ,
                              sf_zetam1_int_data,
                              PyGSL_sf_ufunc_pd_i__one_types,
@@ -6984,7 +6984,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_i__one_data ,
 PyDict_SetItemString(sf_dict, "sf_zetam1_int", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_hzeta_e as pyton name*/
+/*Using sf_hzeta_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
                              sf_hzeta_e_data,
                              PyGSL_sf_ufunc_qi_dd_rd_one_types,
@@ -6998,7 +6998,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_dd_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_hzeta_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_hzeta as pyton name*/
+/*Using sf_hzeta as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
                              sf_hzeta_data,
                              PyGSL_sf_ufunc_pd_dd__one_types,
@@ -7012,7 +7012,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_dd__one_data ,
 PyDict_SetItemString(sf_dict, "sf_hzeta", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_eta_int_e as pyton name*/
+/*Using sf_eta_int_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_i_rd_one_data ,
                              sf_eta_int_e_data,
                              PyGSL_sf_ufunc_qi_i_rd_one_types,
@@ -7026,7 +7026,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_i_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_eta_int_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_eta_int as pyton name*/
+/*Using sf_eta_int as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_i__one_data ,
                              sf_eta_int_data,
                              PyGSL_sf_ufunc_pd_i__one_types,
@@ -7040,7 +7040,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_i__one_data ,
 PyDict_SetItemString(sf_dict, "sf_eta_int", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_eta_e as pyton name*/
+/*Using sf_eta_e as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
                              sf_eta_e_data,
                              PyGSL_sf_ufunc_qi_d_rd_one_types,
@@ -7054,7 +7054,7 @@ f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_qi_d_rd_one_data ,
 PyDict_SetItemString(sf_dict, "sf_eta_e", f);
 /* Py_DECREF(f) */;
 
-/*Using sf_eta as pyton name*/
+/*Using sf_eta as python name*/
 f = PyUFunc_FromFuncAndData( PyGSL_sf_ufunc_pd_d__one_data ,
                              sf_eta_data,
                              PyGSL_sf_ufunc_pd_d__one_types,
